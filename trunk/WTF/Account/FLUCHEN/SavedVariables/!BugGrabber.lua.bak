@@ -1,0 +1,233 @@
+
+BugGrabberDB = {
+	["throttle"] = true,
+	["limit"] = 50,
+	["errors"] = {
+		{
+			["message"] = "Unknown spell info key \"18658\":\nRaidBuffStatus-\\Core.lua:82: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [1]
+		{
+			["message"] = "Unknown spell info key \"14309\":\nRaidBuffStatus-\\Core.lua:83: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [2]
+		{
+			["message"] = "Unknown spell info key \"60210\":\nRaidBuffStatus-\\Core.lua:84: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [3]
+		{
+			["message"] = "Unknown spell info key \"19742\":\nRaidBuffStatus-\\Core.lua:132: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [4]
+		{
+			["message"] = "Unknown spell info key \"25898\":\nRaidBuffStatus-\\Core.lua:175: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [5]
+		{
+			["message"] = "Unknown spell info key \"25899\":\nRaidBuffStatus-\\Core.lua:176: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [6]
+		{
+			["message"] = "Unknown spell info key \"25894\":\nRaidBuffStatus-\\Core.lua:177: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [7]
+		{
+			["message"] = "Unknown spell info key \"25782\":\nRaidBuffStatus-\\Core.lua:178: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [8]
+		{
+			["message"] = "Unknown spell info key \"1243\":\nRaidBuffStatus-\\Core.lua:513: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [9]
+		{
+			["message"] = "RaidBuffStatus-\\Core.lua:514: attempt to concatenate field '?' (a boolean value)\n\nLocals:|r\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [10]
+		{
+			["message"] = "Unknown spell info key \"25898\":\nRaidBuffStatus-\\Buffs.lua:304: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [11]
+		{
+			["message"] = "Unknown spell info key \"25899\":\nRaidBuffStatus-\\Buffs.lua:317: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [12]
+		{
+			["message"] = "Unknown spell info key \"19742\":\nRaidBuffStatus-\\Buffs.lua:322: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [13]
+		{
+			["message"] = "Unknown spell info key \"25894\":\nRaidBuffStatus-\\Buffs.lua:323: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [14]
+		{
+			["message"] = "Unknown spell info key \"25782\":\nRaidBuffStatus-\\Buffs.lua:331: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [15]
+		{
+			["message"] = "Unknown spell info key \"19876\":\nRaidBuffStatus-\\Buffs.lua:642: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [16]
+		{
+			["message"] = "Unknown spell info key \"26992\":\nRaidBuffStatus-\\Buffs.lua:1224: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [17]
+		{
+			["message"] = "Unknown spell info key \"5720\":\nRaidBuffStatus-\\Buffs.lua:1734: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [18]
+		{
+			["message"] = "Unknown spell info key \"60879\":\nRaidBuffStatus-\\Buffs.lua:1916: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [19]
+		{
+			["message"] = "Unknown spell info key \"14752\":\nRaidBuffStatus-\\Buffs.lua:2579: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [20]
+		{
+			["message"] = "Unknown spell info key \"69381\":\nRaidBuffStatus-\\Buffs.lua:2817: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [21]
+		{
+			["message"] = "Unknown spell info key \"1243\":\nRaidBuffStatus-\\Buffs.lua:2907: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [22]
+		{
+			["message"] = "Unknown spell info key \"976\":\nRaidBuffStatus-\\Buffs.lua:3080: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [23]
+		{
+			["message"] = "Unknown spell info key \"13163\":\nRaidBuffStatus-\\Buffs.lua:3230: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [24]
+		{
+			["message"] = "Unknown spell info key \"57960\":\nRaidBuffStatus-\\Buffs.lua:3627: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [25]
+		{
+			["message"] = "Unknown spell info key \"49281\":\nRaidBuffStatus-\\Buffs.lua:3627: in main chunk\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [26]
+		{
+			["message"] = "RaidBuffStatus-\\Buffs.lua:3627: attempt to concatenate field '?' (a boolean value)\n\nLocals:|r\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:21",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [27]
+		{
+			["message"] = "nMainbar\\nMainbar_ShortBar.lua:257: attempt to index global 'SocialsMicroButton' (a nil value)\n\nLocals:|r\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:22",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [28]
+		{
+			["message"] = "AckisRecipeList-Devel\\Player.lua:117: attempt to call global 'GetSpellName' (a nil value)\nAckisRecipeList-Devel\\core.lua:699: in function <Interface\\AddOns\\AckisRecipeList\\core.lua:607>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[1]\":9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?:\nAceAddon-3.0-5:539: in function `EnableAddon'\nAceAddon-3.0-5:629: in function <...s\\AckisRecipeList\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:242: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:265: in function `CombatLog_LoadUI':\nInterface\\FrameXML\\UIParent.lua:519: in function <Interface\\FrameXML\\UIParent.lua:492>:\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:33",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [29]
+		{
+			["message"] = "FishermansFriend-r101-release\\FishermansFriend.lua:278: attempt to call global 'GetSpellName' (a nil value)\nFishermansFriend-r101-release\\FishermansFriend.lua:171: in function <...terface\\AddOns\\FishermansFriend\\FishermansFriend.lua:152>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[1]\":9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?:\nAceAddon-3.0-5:539: in function `EnableAddon'\nAceAddon-3.0-5:629: in function <...s\\AckisRecipeList\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:242: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:265: in function `CombatLog_LoadUI':\nInterface\\FrameXML\\UIParent.lua:519: in function <Interface\\FrameXML\\UIParent.lua:492>:\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:33",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [30]
+		{
+			["message"] = "TheCollector-0.7.3\\TheCollector.lua:137: attempt to call global 'GetSpellName' (a nil value)\nTheCollector-0.7.3\\TheCollector.lua:1143: in function `TheCollectorOnEvent'\n<string>:\"*:OnEvent\":1: in function <[string \"*:OnEvent\"]:1>\n\nLocals:|r\nself = TheCollectorFrame {\n 0 = <userdata>\n numTabs = 3\n selectedTab = 1\n}\nevent = \"PLAYER_ENTERING_WORLD\"\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:33",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [31]
+		{
+			["message"] = "FishermansFriend-r101-release\\FishermansFriend.lua:278: attempt to call global 'GetSpellName' (a nil value)\nCallbackHandler-1.0-6:147: in function <...ist\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[1]\":4: in function <[string \"safecall Dispatcher[1]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[1]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3:120: in function <...s\\AckisRecipeList\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n\n  ---",
+			["type"] = "error",
+			["time"] = "2010/10/13 19:26:33",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [32]
+	},
+	["save"] = true,
+	["session"] = 1,
+}

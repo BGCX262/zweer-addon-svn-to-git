@@ -1,0 +1,30 @@
+tag v1.2-beta-5
+c36e55d2f29297092a7aa0e8fe0bb9ddca165123
+Adirelle <adirelle@tagada-team.net>
+2010-11-15 14:15:13 +0100
+
+Tagging as "v1.2-beta-5".
+
+
+--------------------
+
+Adirelle:
+	- Fixed virtual stack option ordering.
+	- Fixed the tooltip info module with regard to third-party tooltip modifiers.
+	- Virtual stacks: added a reference to the stack button to the visible slot item button.
+	- Check item link validity in container frame.
+	- Strip unique id and link level from internal item strings.
+	- Report invalid item links in alpha packages (if you have tekDebug installed).
+	- New items: also ignore brand new junk items.
+	- New items: do not unmark stack ok items unless you remove them all from your bags.
+	- Have the set filter update more often, hopefully catching valid links.
+	- Only use tekDebug in debug and alpha packages.
+	- New items: also delay the first update after zoning.
+	- Allow the tidy button to refresh the layout.
+	- Preventing reordering of virtual stacks when removing items from a bag.
+	- Minor bugfixes.
+	- Check item links before using them.
+	- Also disable on PLAYER_LEAVING_WORLD.
+	- Use our interacting window API to open and close the backpack and the bank.
+	- Ignore PLAYERBANKSLOTS_CHANGED that aren't related to the generic bank slots.
+	- Do not enable anything before the first PEW.

@@ -1,0 +1,117 @@
+MACRO 37 "Anub'arak" INV_Misc_QuestionMark
+#showtooltip Shadow Word: Pain
+/tar frost
+/cast Shadow Word: Pain
+END
+MACRO 36 "AutoHP" INV_Misc_QuestionMark
+#showtooltip
+/use [nocombat] item:43523
+/castsequence [combat,nomod] reset=combat item:36892, item:40077
+END
+MACRO 35 "AutoMP" INV_Misc_QuestionMark
+#showtooltip
+/use [combat] item:40077; item:43523
+END
+MACRO 38 "Baci" INV_Misc_QuestionMark
+#showtooltip Warts-B-Gone Lip Balm
+/cleartarget
+/tar Lake Frog
+/stopmacro [noexists]
+/use Warts-B-Gone Lip Balm
+/kiss
+END
+MACRO 17 "CERCHIO" Ability_CheapShot
+/run SetRaidTarget("target", 2)
+END
+MACRO 48 "Daily Nether" INV_Misc_QuestionMark
+#showtooltip Booterang
+/cleartarget
+/target Disobedient Dragonmaw Peon
+/script SetRaidTarget("target",1)
+/use Booterang
+END
+MACRO 43 "Farming" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Find Herbs, Find Minerals
+END
+MACRO 50 "Fester" Ability_Creature_Disease_05
+/run SetRaidTarget("focus", 1)
+END
+MACRO 39 "Focus" Ability_Creature_Cursed_02
+/focus
+END
+MACRO 40 "Follow" Ability_Creature_Cursed_05
+/follow focus
+END
+MACRO 32 "Grand Widow" Spell_Shaman_ThunderStorm
+#showtooltip Mind Control
+/tar Naxxramas Worshipper
+/cast Mind Control
+END
+MACRO 41 "Heroism" INV_Misc_QuestionMark
+/rw HEROISM
+END
+MACRO 46 "Inspect" INV_Misc_QuestionMark
+/inspect
+END
+MACRO 33 "Instructor" Ability_CheapShot
+/cast [target=focus] Mind Control
+END
+MACRO 20 "LUNA" Ability_CheapShot
+/run SetRaidTarget("target", 5)
+END
+MACRO 45 "Mountiful" INV_Misc_QuestionMark
+/click [button:1] Mountiful; [button:2] MOrightclickbutton
+#showtooltipicon Swift Brewfest Ram
+END
+MACRO 42 "Pull icc" INV_Misc_QuestionMark
+#tooltip Shackle Undead
+/tar severed essence
+/cast shackle undead
+END
+MACRO 27 "qe" Ability_Creature_Poison_01
+/tar Gas Bomb
+/tar Volatile Ooze
+/cast Shadow word: death
+END
+MACRO 21 "QUADRATO" Ability_CheapShot
+/run SetRaidTarget("target", 6)
+END
+MACRO 18 "ROMBO" Ability_CheapShot
+/run SetRaidTarget("target", 3)
+END
+MACRO 14 "Simbol" Ability_CheapShot
+/run SetRaidTarget("target", 1)
+END
+MACRO 16 "STELLA" Ability_CheapShot
+/run SetRaidTarget("target", 1)
+END
+MACRO 23 "TESCHIO" Ability_CheapShot
+/run SetRaidTarget("target", 8)
+END
+MACRO 49 "Thaddius" Ability_Creature_Cursed_05
+/y PIU' ACQUA - MENO MURO
+END
+MACRO 47 "Trade" Ability_Druid_Ravage
+/trade
+END
+MACRO 13 "TS" Ability_Creature_Poison_05
+94.198.99.72:8790
+pass generale  pizza
+teamspeak 2
+END
+MACRO 29 "TS Raid" Ability_Creature_Poison_05
+/ra 94.198.99.72:8790
+/ra pass generale  pizza
+/ra teamspeak 2
+END
+MACRO 44 "Valithria" Ability_Creature_Disease_04
+/tar Valithria Dreamwalker
+/focus
+END
+MACRO 19 "VERDE" Ability_CheapShot
+/run SetRaidTarget("target", 4)
+END
+MACRO 22 "X" Ability_CheapShot
+/run SetRaidTarget("target", 7)
+END

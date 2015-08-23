@@ -1,0 +1,7 @@
+﻿## Interface: 30300
+## Title: MyGhoul
+## Notes: Necrotic Plague monitor for the LK 10 achievement
+## Author: Stormpaw
+
+MyGhoul.lua
+

@@ -1,0 +1,19 @@
+
+ARLDB2 = {
+	["global"] = {
+		["tradeskill"] = {
+			["Crushridge"] = {
+				["Zweer"] = {
+					["Alchemy"] = "|cffffd000|Htrade:28675:450:450:1800000005CE470:Wt9P+1vX/3f/fAfmaEoPv7HA9/6/8BR/////D89////n|h[Potion Master]|h|r",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}

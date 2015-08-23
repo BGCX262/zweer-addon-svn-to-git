@@ -1,0 +1,10 @@
+
+RoathGryphonState = "hide"
+RoathMenuState = "show"
+RoathBagState = "hide"
+RoathKeyState = "hide"
+RoathOffset = 0
+RoathCastOffset = 0
+RoathHorizOff = 0
+RoathStanceOff = 0
+Roathscale = 1

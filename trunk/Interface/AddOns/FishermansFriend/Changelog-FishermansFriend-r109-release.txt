@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+r109 | ammo | 2010-10-24 12:06:00 +0000 (Sun, 24 Oct 2010) | 1 line
+Changed paths:
+   A /tags/r109-release (from /trunk:108)
+
+Tagging as r109-release
+------------------------------------------------------------------------
+r108 | ammo | 2010-10-24 12:01:02 +0000 (Sun, 24 Oct 2010) | 3 lines
+Changed paths:
+   M /trunk/FishermansFriend.lua
+   M /trunk/FishermansFriend.toc
+   M /trunk/locales/enUS.lua
+
+fix autoloading
+allow custom volume settings for fishing mode
+fix slashcommands
+------------------------------------------------------------------------
+r106 | ammo | 2010-10-16 12:16:08 +0000 (Sat, 16 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/FishermansFriend.toc
+
+toc to the hand
+------------------------------------------------------------------------
+r105 | durcyn | 2010-10-15 01:02:25 +0000 (Fri, 15 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/FishermansFriend.lua
+
+use GetProfession/GetProfessionInfo to grab current fishing skill for lure selection
+------------------------------------------------------------------------
+r104 | durcyn | 2010-10-14 04:11:43 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/FishermansFriend.lua
+
+we no longer need to call a specific fishing rank, just use GetSpellInfo to see if we actually know Fishing at all, then use it.
+------------------------------------------------------------------------
+r103 | kagaro | 2010-10-13 02:20:32 +0000 (Wed, 13 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/FishermansFriend.lua
+
+Fixed skill line changed code so it work in 4.0 now
+------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+
+EQUIPSWITCH = {
+	["icon"] = "Interface\\Icons\\Spell_Holy_GuardianSpirit",
+	["text"] = "Holy",
+}

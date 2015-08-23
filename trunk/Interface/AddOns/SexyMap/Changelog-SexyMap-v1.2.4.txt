@@ -1,0 +1,18 @@
+tag v1.2.4
+4532d7c06f74cc83ac7f37d0a779367c608bfa50
+Chris Heald <cheald@gmail.com>
+2010-10-13 05:13:30 -0700
+
+Tagging as 1.2.4
+
+
+--------------------
+
+Chris Heald:
+	- Updates for 4.0.1
+	- Added premium feature paywalls, enable remote upgrade checks
+unknown:
+	- add zhTW .toc desc.
+Adavak:
+	- zhCN/zhTW update. Signed-off-by: Adavak <ananhaid@gmail.com>
+	- zhCN update. Signed-off-by: Adavak <ananhaid@gmail.com>

@@ -1,0 +1,31 @@
+tag v1.5-beta-16
+5839a916b22dbd63772937bea6eed65765ca39f3
+Adirelle <adirelle@tagada-team.net>
+2010-11-15 14:52:41 +0100
+
+Tagging as v1.5-beta-16.
+
+
+--------------------
+
+Adirelle:
+	- Locales updated.
+	- Added an "invert highlight option".
+	- Defaults: updated class specific "group (de)buffs" handling with regard to the recent "self buffs" changes.
+	- Fixed Strength of Earth buff id (which is different from the Strength of Earth Totem itself).
+	- Actually define shared buffs as "self".
+	- Now that shared buffs are considered "self", one should be able to show others' buffs.
+	- Reworked targeting logic. It now considers heplful items as self buffs by default.
+	- Fixed shared (de)buffs: really do not show passive spells. Also consider group buffs as "self" to show your own buff as reference.
+	- Locales updated.
+	- Revert "Display Blizzard glowing effects on macro, provided the events happen."
+	- Added Ardent Defender, Divine Plea and Zealotry.
+	- Added warriors' Victory Rush.
+	- Added useful links to the README file.
+	- Added the README file.
+	- Have combo points displayed on some finishers and added some rogue settings.
+	- Another typo.
+	- Typo.
+	- It is actually more interesting to display the Pulverize buff on player than the stacks of Lacerate on the target.
+	- Show Lacerate stacks on Pulverize.
+	- Added shared debuffs "Reduced Physical Damage Done".

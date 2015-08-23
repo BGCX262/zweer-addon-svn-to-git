@@ -1,0 +1,14 @@
+
+EnsidiaFailsDB = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+EnsidiaFails_FailCount = {
+}
+EnsidiaFails_OFailCount = {
+}

@@ -1,0 +1,56 @@
+
+DocsUI_NameplatesDB = {
+	["realm"] = {
+		["Crushridge"] = {
+			["playerList"] = {
+				["0x01800000005A52AF"] = "^1^SValandil^S0x01800000005A52AF^SPRIEST^SEX~`Guild^SCrushridge^^",
+				["0x01800000005CE470"] = "^1^SZweer^S0x01800000005CE470^SPRIEST^SReLoad^SCrushridge^^",
+				["Zweer"] = "0x01800000005CE470",
+				["Valandil"] = "0x01800000005A52AF",
+			},
+		},
+	},
+	["global"] = {
+		["npcList"] = {
+			["Usuri Brightcoin"] = "Money Changer",
+			["Binzik Goldbook"] = "Banker",
+		},
+		["spellList"] = {
+			[79107] = "^1^SSpell_Holy_PrayerofShadowProtection^N3600^^",
+			[91724] = "^1^SSpell_Holy_SpellWarding^b^^",
+			[53768] = "^1^SSpell_Shadow_AuraOfDarkness^b^^",
+			[588] = "^1^SSpell_Holy_InnerFire^N1800^^",
+			[53755] = "^1^SINV_Alchemy_EndlessFlask_04^N7200^^",
+			[57723] = "^1^SSpell_Nature_Sleep^N600^^",
+			[72968] = "^1^SINV_Misc_Ribbon_01^b^^",
+			[79105] = "^1^SSpell_Holy_WordFortitude^N3600^^",
+			[48100] = "^1^SSpell_Arcane_ArcaneResilience^N1800^^",
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "zwe",
+	},
+	["profiles"] = {
+		["zwe"] = {
+		},
+		["Zweer - Crushridge"] = {
+			["socialIcon"] = false,
+			["font"] = "LUI",
+			["dataConverted"] = 1,
+			["texture"] = "LUI",
+			["fontsizeHealth"] = 11,
+			["fonti"] = "LUI",
+			["border"] = "LUI",
+			["showHpBar"] = true,
+			["presetChosen"] = 5.01,
+			["borderColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["guildName"] = false,
+			["fontb"] = "LUI",
+		},
+	},
+}

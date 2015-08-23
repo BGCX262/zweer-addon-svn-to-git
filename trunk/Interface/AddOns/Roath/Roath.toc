@@ -1,0 +1,10 @@
+## Interface: 40000
+## Title: [|cffF58CBARoath|r] |cffffffffActionBars|r
+## Version: 4.0.00
+## Author: Roath of Kul Tiras / Algorithm of Ysera (with thanks to BlueFighter & Semicircle)
+## Notes: Rearrangeing of the default Blizzard actionbars, stance/shapeshift, petbars, and castbar
+## LoadOnDemand: 0
+## DefaultState: enabled
+## SavedVariables: RoathGryphonState, RoathMenuState, RoathBagState, RoathKeyState, RoathOffset, RoathCastOffset, RoathHorizOff, RoathStanceOff, Roathscale, RoathVehiclescale
+
+Roath.lua

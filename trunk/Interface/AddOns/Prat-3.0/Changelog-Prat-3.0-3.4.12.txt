@@ -1,0 +1,8 @@
+2010-11-14  sylvanaar  <sylvanaar>
+
+[f3399a628ecc] [3.4.12]
+* modules/CopyChat.lua:
+
+make the location of the copy button configurable to any of the 4 corners of the chatframe
+
+

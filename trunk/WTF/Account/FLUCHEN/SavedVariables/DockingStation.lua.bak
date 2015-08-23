@@ -1,0 +1,307 @@
+
+DockingStationSettings = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "zwe",
+	},
+	["version"] = "0.4.6 (Beta)",
+	["profiles"] = {
+		["Default"] = {
+			["labelSize"] = 0.55,
+			["lockPanel"] = true,
+			["panels"] = {
+				["g8HS"] = {
+					["allowGlobals"] = false,
+					["enable"] = true,
+					["bgColorG"] = 0,
+					["Left"] = {
+						"DockingStation", -- [1]
+					},
+					["offsetX"] = 0,
+					["bgColorR"] = 0,
+					["bgColorB"] = 0,
+					["Center"] = {
+						"|cFFFFB366Ara|r Tradeskills", -- [1]
+						"|cffffb366Ara|r Reputations", -- [2]
+						"|cFFFFB366Ara|r Friends", -- [3]
+						"|cFFFFB366Ara|r Guild", -- [4]
+					},
+					["bgInset"] = -1,
+					["bgColorA"] = 0,
+					["bgTexture"] = "Empty",
+					["Right"] = {
+						"AdiBags", -- [1]
+						"|cFFFFB366Ara|r SpecSwitcher", -- [2]
+						"Atlas", -- [3]
+						"Broker_HudMap", -- [4]
+						"BugSack", -- [5]
+						"DXE", -- [6]
+						"VuhDo", -- [7]
+						"WIM", -- [8]
+					},
+					["offsetY"] = 0.4904779719394616,
+				},
+			},
+			["labelHide"] = true,
+			["plugins"] = {
+				["RaidBuffStatus"] = {
+					["enable"] = false,
+				},
+				["|cffffb366Ara|r Reputations"] = {
+					["enable"] = true,
+					["textHide"] = true,
+					["textFixed"] = false,
+					["textUseLabel"] = true,
+				},
+				["BugSack"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["PitBull4"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r SpecSwitcher"] = {
+					["textFixed"] = false,
+					["enable"] = true,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["WIM"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["AtlasLoot"] = {
+					["enable"] = false,
+				},
+				["Parrot"] = {
+					["enable"] = false,
+				},
+				["Broker_HudMap"] = {
+					["enable"] = true,
+				},
+				["StealYourCarbon"] = {
+					["enable"] = false,
+				},
+				["DockingStation"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r Guild"] = {
+					["enable"] = true,
+				},
+				["|cFFFFB366Ara|r Tradeskills"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["Buffet"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r Friends"] = {
+					["enable"] = true,
+				},
+				["|cFFFFB366Ara|r Money"] = {
+					["enable"] = false,
+				},
+				["DXE"] = {
+					["enable"] = true,
+				},
+				["Atlas"] = {
+					["enable"] = true,
+				},
+				["AdiBags"] = {
+					["enable"] = true,
+				},
+				["Prat"] = {
+					["enable"] = false,
+				},
+				["Omen"] = {
+					["enable"] = false,
+				},
+				["VuhDo"] = {
+					["enable"] = true,
+				},
+			},
+			["textHide"] = false,
+			["labelColorB"] = 1,
+			["labelColorG"] = 1,
+			["labelColorR"] = 1,
+			["labelColorA"] = 1,
+			["labelFont"] = "Friz Quadrata TT",
+			["width"] = 1,
+			["textUseLabel"] = true,
+			["labelOverride"] = false,
+			["textFixed"] = false,
+			["labelVertAdj"] = 0,
+			["height"] = 0.01904404761904762,
+			["labelUseName"] = false,
+			["labelEffect"] = 0,
+			["defaultPanel"] = "g8HS",
+		},
+		["zwe"] = {
+			["labelSize"] = 0.55,
+			["lockPanel"] = true,
+			["panels"] = {
+				["g8HS"] = {
+					["allowGlobals"] = false,
+					["enable"] = true,
+					["bgColorB"] = 0,
+					["Left"] = {
+						"DockingStation", -- [1]
+					},
+					["bgInset"] = -1,
+					["Right"] = {
+						"AdiBags", -- [1]
+						"|cFFFFB366Ara|r SpecSwitcher", -- [2]
+						"Atlas", -- [3]
+						"Broker_HudMap", -- [4]
+						"BugSack", -- [5]
+						"DXE", -- [6]
+						"VuhDo", -- [7]
+						"WIM", -- [8]
+					},
+					["bgTexture"] = "Empty",
+					["offsetX"] = 0,
+					["bgColorR"] = 0,
+					["bgColorA"] = 0,
+					["offsetY"] = 0.4904779719394616,
+					["Center"] = {
+						"|cFFFFB366Ara|r Tradeskills", -- [1]
+						"|cffffb366Ara|r Reputations", -- [2]
+						"|cFFFFB366Ara|r Friends", -- [3]
+						"|cFFFFB366Ara|r Guild", -- [4]
+					},
+					["bgColorG"] = 0,
+				},
+			},
+			["labelHide"] = true,
+			["plugins"] = {
+				["RaidBuffStatus"] = {
+					["enable"] = false,
+				},
+				["|cffffb366Ara|r Reputations"] = {
+					["enable"] = true,
+					["textHide"] = true,
+					["textFixed"] = false,
+					["textUseLabel"] = true,
+				},
+				["BugSack"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["PitBull4"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r Friends"] = {
+					["enable"] = true,
+				},
+				["WIM"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["AtlasLoot"] = {
+					["enable"] = false,
+				},
+				["Parrot"] = {
+					["enable"] = false,
+				},
+				["Broker_HudMap"] = {
+					["enable"] = true,
+				},
+				["StealYourCarbon"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r Tradeskills"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+				["|cFFFFB366Ara|r Guild"] = {
+					["enable"] = true,
+				},
+				["VuhDo"] = {
+					["enable"] = true,
+				},
+				["Buffet"] = {
+					["enable"] = false,
+				},
+				["DockingStation"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r Money"] = {
+					["enable"] = false,
+				},
+				["DXE"] = {
+					["enable"] = true,
+				},
+				["Prat"] = {
+					["enable"] = false,
+				},
+				["AdiBags"] = {
+					["enable"] = true,
+				},
+				["Atlas"] = {
+					["enable"] = true,
+				},
+				["Omen"] = {
+					["enable"] = false,
+				},
+				["|cFFFFB366Ara|r SpecSwitcher"] = {
+					["enable"] = true,
+					["textFixed"] = false,
+					["textHide"] = true,
+					["textUseLabel"] = true,
+				},
+			},
+			["textHide"] = false,
+			["labelColorB"] = 1,
+			["labelColorG"] = 1,
+			["labelColorR"] = 1,
+			["labelColorA"] = 1,
+			["labelFont"] = "Friz Quadrata TT",
+			["width"] = 1,
+			["defaultPanel"] = "g8HS",
+			["labelOverride"] = false,
+			["textFixed"] = false,
+			["labelVertAdj"] = 0,
+			["height"] = 0.01904404761904762,
+			["labelUseName"] = false,
+			["labelEffect"] = 0,
+			["textUseLabel"] = true,
+		},
+	},
+	["pluginType"] = {
+		["RaidBuffStatus"] = "launcher",
+		["|cffffb366Ara|r Reputations"] = "data source",
+		["BugSack"] = "data source",
+		["PitBull4"] = "launcher",
+		["|cFFFFB366Ara|r SpecSwitcher"] = "data source",
+		["WIM"] = "data source",
+		["AtlasLoot"] = "launcher",
+		["Parrot"] = "launcher",
+		["Broker_HudMap"] = "data source",
+		["StealYourCarbon"] = "launcher",
+		["DockingStation"] = "launcher",
+		["|cFFFFB366Ara|r Guild"] = "data source",
+		["|cFFFFB366Ara|r Tradeskills"] = "data source",
+		["Buffet"] = "launcher",
+		["|cFFFFB366Ara|r Friends"] = "data source",
+		["|cFFFFB366Ara|r Money"] = "data source",
+		["DXE"] = "launcher",
+		["Atlas"] = "launcher",
+		["AdiBags"] = "data source",
+		["Prat"] = "launcher",
+		["Omen"] = "launcher",
+		["VuhDo"] = "launcher",
+	},
+	["pluginAlias"] = {
+	},
+}

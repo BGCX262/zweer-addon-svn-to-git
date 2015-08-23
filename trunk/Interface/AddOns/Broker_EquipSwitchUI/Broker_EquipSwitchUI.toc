@@ -1,0 +1,12 @@
+## Interface: 40000
+## Title: Broker: EquipSwitchUI
+## Notes: Minimap icon for Broker: EquipSwitch
+## Author: LLoydBates
+## Version: 4.0.0
+## Dependencies: Broker_EquipSwitch
+## X-WoWI-ID: 12649
+
+embeds.xml
+
+EventHandler.lua
+Core.lua

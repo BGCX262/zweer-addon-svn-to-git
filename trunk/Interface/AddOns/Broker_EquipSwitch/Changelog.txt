@@ -1,0 +1,94 @@
+- 4.0.0:
+  Big version jump without any new functions, I'm keeping it minimal because I don't need more features.
+  Updated libraries
+
+- 1.4.1:
+  Fixed an nil error that happend when no previously saved set was saved for the current character.
+
+- 1.4.0:
+  Right clicking on the plugin will open the Blizzard GearManager
+  Now uses the table that is passed by blizzard
+  Event handling simplyfied, more stuff is moved to the time the addon actualy is loaded
+  Added support for MMOUI Minion
+  
+- 1.3.9:
+  TOC Bump for patch 3.3
+  Next release will be refactored for the new parameters blizzard passes to addons
+
+- 1.3.5:
+  Nobody told me .. it's esES and not enES! :sadface:
+
+- 1.3.4:
+  Fixed enES translation, thanks PatoDaia
+  As always, if a translation displays wrong for your local or you want one added/edited, please
+  submit a lua file.
+
+- 1.3.3:
+  Added enES, thanks PatoDaia
+  As always, if a translation displays wrong for your local or you want one added/edited, please
+  submit a lua file.
+
+- 1.3.2:
+  Added ruRU, thanks kolod
+  This translation was c&p from a website, it may not display correct for you if you are on ruRU local.
+  If this happens, please supply a lua file that I can download to add it again.
+
+- 1.3.1:
+  Added koKR, thanks chkid
+
+- 1.3.0:
+  Updated TOC
+
+- 1.2.0:
+  Broker_EquipSwitch:
+  Added zhTW, thanks a9012456
+  Switched to AceLocal-3.0 for localization, to make it easier for the translators to send me new translations.
+
+  Broker_EquipSwitchUI: 
+  Simplyfied the code and removed a redundant callback
+
+- 1.1.0:
+  If equiping a set fails, the icon will not update.
+  This happenes when you are on taxi or are casting a spell and try
+  to switch to a different set.
+
+- 1.0.0:
+  Release, removed some debug output
+
+- 0.12.0:
+  TOC Update
+  Changed VARIABLES_LOADED to ADDON_LOADED
+  Changed PLAYER_ENTERING_WORLD to PLAYER_LOGIN
+
+- 0.11.1:
+  Fixed table recycling and some tweaks.
+
+- 0.11.0:
+  Added Broker_EquipSwitchUI to the package, this provides a minimap icon.
+  If you don't want a minimap icon, don't load this as an addon.
+  
+- 0.10.0:
+  Feature complete for 3.1.0, waiting for GetEquipmentSetInfoByName API fix 
+
+- 0.9.9658-3:
+  Small update for workaround introduced in 0.9.9658-2
+  New default icon
+  Removed redundant queue for switching equipment while in combat, 
+    therefore allowing switching of mainhand, offhand and 
+    ranged weapons. This is handlede by Blizzard within 
+  EquipmentManager_AddPendingEquip(itemId, inventorySlot, location).
+
+- 0.9.9658-2:
+  Added workaround for Blizzard API bug.
+
+- 0.9.9658:
+  Some code clean up and tweaks.
+  Improved table handling and reusing.
+  Improved the way the items in the menu are created.
+
+- 0.9.9637:
+  Updated Version
+  Added german local
+
+- 0.9.9626:
+  Initial upload

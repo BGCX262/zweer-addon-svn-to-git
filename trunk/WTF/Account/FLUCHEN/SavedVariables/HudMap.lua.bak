@@ -1,0 +1,31 @@
+
+HudMapDB = {
+	["namespaces"] = {
+		["Ping"] = {
+		},
+		["Party & Raid"] = {
+		},
+		["Range Markers"] = {
+		},
+		["Player Icon"] = {
+		},
+		["Totem Ranges"] = {
+		},
+		["AOE Healing"] = {
+		},
+		["Encounters"] = {
+		},
+		["Compass"] = {
+		},
+		["Battlegrounds"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}
+HudMapDebug = nil

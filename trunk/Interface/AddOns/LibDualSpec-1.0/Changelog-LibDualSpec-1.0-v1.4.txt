@@ -1,0 +1,13 @@
+tag v1.4
+507d1fc6514f1588eec5341ff82866ba0053a730
+Adirelle <adirelle@tagada-team.net>
+2010-11-09 14:26:54 +0100
+
+Tagging as "v1.4".
+
+
+--------------------
+
+Adirelle:
+	- Now fix /reloadui issues, thanks to Greltok.
+	- Slightly changed initialization since GetActiveTalentGroup() always returns 1 on initial login.

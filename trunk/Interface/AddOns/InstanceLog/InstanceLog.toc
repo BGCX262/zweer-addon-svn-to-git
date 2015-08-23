@@ -1,0 +1,10 @@
+## Interface: 30000
+## Title : Instance Log
+## Author: Kryso (Ahn'Qiraj EU)
+## Version: 1.0
+## X-Curse-Packaged-Version: release-r7
+## X-Curse-Project-Name: Instance Log
+## X-Curse-Project-ID: instancelog
+## X-Curse-Repository-ID: wow/instancelog/mainline
+
+InstanceLog.lua

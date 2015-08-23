@@ -1,0 +1,3531 @@
+
+VUHDO_CONFIG = {
+	["SMARTCAST_CLEANSE"] = true,
+	["RANGE_SPELL"] = "Lesser Heal",
+	["OMIT_MAIN_ASSIST"] = false,
+	["BLIZZ_UI_HIDE_PLAYER"] = 1,
+	["MAX_EMERGENCIES"] = 5,
+	["LOCK_CLICKS_THROUGH"] = false,
+	["VERSION"] = 2,
+	["RANGE_CHECK"] = true,
+	["CURRENT_SKIN"] = "",
+	["DETECT_DEBUFFS_IGNORE_DURATION"] = true,
+	["OVERHEAL_EXTRA_SCALE"] = 1,
+	["CUSTOM_DEBUFF"] = {
+		["isIcon"] = true,
+		["yAdjust"] = -34,
+		["animate"] = true,
+		["isStacks"] = false,
+		["scale"] = 0.800000011920929,
+		["point"] = "TOPRIGHT",
+		["isColor"] = false,
+		["STORED"] = {
+			"Frost Blast", -- [1]
+			"Weakened Soul", -- [2]
+			"Grievous Bite", -- [3]
+			"Instant Heal", -- [4]
+			"Impale", -- [5]
+			"Web Wrap", -- [6]
+			"Jagged Knife", -- [7]
+			"Slag Pot", -- [8]
+			"Gravity Bomb", -- [9]
+			"Searing Light", -- [10]
+			"Stone Grip", -- [11]
+			"Feral Pounce", -- [12]
+			"Napalm Shell", -- [13]
+		},
+		["max_num"] = 3,
+		["STORED_SETTINGS"] = {
+			["Stone Grip"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Napalm Shell"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Feral Pounce"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Web Wrap"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Jagged Knife"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Slag Pot"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Gravity Bomb"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Searing Light"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Frost Blast"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Impale"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Instant Heal"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Weakened Soul"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Grievous Bite"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["color"] = {
+					["TG"] = 0.5,
+					["B"] = 0,
+					["TB"] = 0,
+					["G"] = 0.3,
+					["TR"] = 0.8,
+					["TO"] = 1,
+					["useOpacity"] = true,
+					["useBackground"] = true,
+					["useText"] = true,
+					["O"] = 1,
+					["R"] = 0.6,
+				},
+				["SOUND"] = "Interface\\Quiet.mp3",
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+		},
+		["version"] = 5,
+		["SOUND"] = "Interface\\Quiet.mp3",
+		["timer"] = true,
+		["selected"] = "",
+		["xAdjust"] = -2,
+	},
+	["GROUP_HIGHLIGHT_FACTOR"] = 0.1000000014901161,
+	["ON_MOUSE_UP"] = false,
+	["UPDATE_HOTS_MS"] = 250,
+	["DETECT_DEBUFFS_IGNORE_BY_CLASS"] = true,
+	["RES_IS_SHOW_TEXT"] = false,
+	["LOCK_PANELS"] = false,
+	["DETECT_DEBUFFS_IGNORE_NO_HARM"] = true,
+	["SHOW_OVERHEAL_EXTRA"] = true,
+	["RES_ANNOUNCE_TEXT"] = "Come to life, vuhdo, you b00n!",
+	["RANGE_PESSIMISTIC"] = false,
+	["SMARTCAST_RESURRECT"] = true,
+	["BLIZZ_UI_HIDE_PET"] = 1,
+	["SMARTCAST_BUFF"] = false,
+	["PLAYER_TARGET_FRAME"] = 1,
+	["PLAYER_TARGET_FRAME_THICKNESS"] = 1,
+	["SHOW_PLAYER_TAGS"] = true,
+	["DETECT_DEBUFFS"] = true,
+	["SHOW_PANELS"] = true,
+	["AUTO_ARRANGEMENTS"] = {
+		["lastAutoSaveSlot"] = 0,
+		["dirty"] = true,
+	},
+	["BLIZZ_UI_HIDE_TARGET"] = 1,
+	["EMERGENCY_TRIGGER"] = 100,
+	["SHOW_INCOMING"] = true,
+	["CURRENT_ARRANGEMENT"] = "",
+	["RANGE_CHECK_DELAY"] = 200,
+	["BLIZZ_UI_HIDE_PARTY"] = 1,
+	["OMIT_FOCUS"] = false,
+	["SOUND_DEBUFF"] = "Interface\\Quiet.mp3",
+	["DETECT_DEBUFFS_IGNORE_MOVEMENT"] = true,
+	["SHOW_OVERHEAL"] = true,
+	["OMIT_OWN_GROUP"] = false,
+	["MODE"] = 1,
+	["THREAT"] = {
+		["AGGRO_USE_TEXT"] = true,
+		["THREAT_SYMBOL_MIN_PERCENT"] = 85,
+		["AGGRO_REFRESH_MS"] = 300,
+		["AGGRO_TEXT_RIGHT"] = "<<",
+		["AGGRO_DETECT"] = true,
+		["AGGRO_USE_LINE"] = true,
+		["AGGRO_TEXT_LEFT"] = ">>",
+		["THREAT_BAR_WIDTH"] = 4,
+		["THREAT_USE_SYMBOL"] = false,
+		["THREAT_USE_BAR"] = false,
+	},
+	["SHOW_TEXT_OVERHEAL"] = true,
+	["OMIT_PLAYER_TARGETS"] = false,
+	["SHOW_OWN_INCOMING"] = true,
+	["SHOW_MINIMAP"] = true,
+	["DETECT_DEBUFFS_REMOVABLE_ONLY"] = true,
+}
+VUHDO_PANEL_SETUP = {
+	{
+		["POSITION"] = {
+			["y"] = 868.1,
+			["x"] = 311.4,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 35,
+			["growth"] = "TOPLEFT",
+			["width"] = 108,
+		},
+		["MODEL"] = {
+			["sort"] = 1,
+			["groups"] = {
+				1, -- [1]
+				2, -- [2]
+				3, -- [3]
+				4, -- [4]
+				5, -- [5]
+				6, -- [6]
+				7, -- [7]
+				8, -- [8]
+			},
+			["ordering"] = 0,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 3,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+				"Renew", -- [6]
+			},
+			["showSwiftmend"] = false,
+			["isFlatTexture"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["vertical"] = false,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["invertGrowth"] = false,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 35,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = 1,
+			["raidIconScale"] = 1,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 3,
+			["headerWidth"] = 50,
+			["totWidth"] = 30,
+			["showManaBars"] = true,
+			["totSpacing"] = 3,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 0,
+			["borderGapX"] = 0,
+			["columnSpacing"] = 2,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = 1,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showClass"] = false,
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["_spacing"] = 26.99999936740228,
+			["showPetOwners"] = true,
+		},
+	}, -- [1]
+	{
+		["POSITION"] = {
+			["y"] = 701.7000000000001,
+			["x"] = 1299.4,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 30,
+			["growth"] = "TOPLEFT",
+			["width"] = 255,
+		},
+		["MODEL"] = {
+			["sort"] = 1,
+			["groups"] = {
+				41, -- [1]
+			},
+			["ordering"] = 0,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 3,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 70,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 150,
+			["showRageBars"] = false,
+			["barHeight"] = 45,
+			["ommitEmptyWhenStructured"] = false,
+			["showTarget"] = true,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 8,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = 1,
+			["targetSpacing"] = 2,
+			["headerHeight"] = 20,
+			["borderGapY"] = 0,
+			["borderGapX"] = 0,
+			["columnSpacing"] = 2,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showClass"] = false,
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = false,
+			["_spacing"] = 26.99999936740228,
+		},
+	}, -- [2]
+	{
+		["POSITION"] = {
+			["y"] = 578,
+			["x"] = 190,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 30,
+			["growth"] = "TOPLEFT",
+			["width"] = 85,
+		},
+		["MODEL"] = {
+			["sort"] = 1,
+			["ordering"] = 0,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [3]
+	{
+		["POSITION"] = {
+			["y"] = 548,
+			["x"] = 220,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 30,
+			["growth"] = "TOPLEFT",
+			["width"] = 85,
+		},
+		["MODEL"] = {
+			["sort"] = 1,
+			["groups"] = {
+				40, -- [1]
+			},
+			["ordering"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 23,
+			["ommitEmptyWhenStructured"] = 1,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 8,
+			["manaBarHeight"] = 3,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = true,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 2,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showClass"] = false,
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["_spacing"] = 26.99999936740228,
+			["showPetOwners"] = true,
+		},
+	}, -- [4]
+	{
+		["POSITION"] = {
+			["y"] = 518,
+			["x"] = 250,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [5]
+	{
+		["POSITION"] = {
+			["y"] = 488,
+			["x"] = 280,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [6]
+	{
+		["POSITION"] = {
+			["y"] = 458,
+			["x"] = 310,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [7]
+	{
+		["POSITION"] = {
+			["y"] = 428,
+			["x"] = 340,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [8]
+	{
+		["POSITION"] = {
+			["y"] = 398,
+			["x"] = 370,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [9]
+	{
+		["POSITION"] = {
+			["y"] = 368,
+			["x"] = 400,
+			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 200,
+			["growth"] = "TOPLEFT",
+			["width"] = 200,
+		},
+		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 1,
+		},
+		["TOOLTIP"] = {
+			["BACKGROUND"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["point"] = "TOPLEFT",
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 1,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["showBuffs"] = false,
+			["y"] = -100,
+			["x"] = 100,
+			["relativePoint"] = "TOPLEFT",
+			["SCALE"] = 1,
+			["show"] = true,
+			["inFight"] = false,
+			["position"] = 2,
+		},
+		["PANEL_COLOR"] = {
+			["BACK"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["classColorsBackHeader"] = false,
+			["TARGET"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["BORDER"] = {
+				["useBackground"] = true,
+				["R"] = 0,
+				["useOpacity"] = true,
+				["O"] = 0,
+				["G"] = 0,
+				["B"] = 0,
+			},
+			["barTexture"] = "VuhDo - Convex",
+			["BARS"] = {
+				["useBackground"] = true,
+				["O"] = 1,
+				["R"] = 0.7,
+				["useOpacity"] = true,
+				["mode"] = 0,
+				["G"] = 0.7,
+				["B"] = 0.7,
+			},
+			["classColorsBack"] = false,
+			["classColorsBar"] = false,
+			["TEXT"] = {
+				["TG"] = 0.82,
+				["R"] = 0,
+				["B"] = 0,
+				["TB"] = 0,
+				["O"] = 0.25,
+				["G"] = 0,
+				["useText"] = true,
+				["maxChars"] = 0,
+				["font"] = "Fonts\\ARIALN.TTF",
+				["TO"] = 1,
+				["useBackground"] = true,
+				["useOpacity"] = true,
+				["TR"] = 1,
+				["textSizeLife"] = 13,
+				["textSize"] = 14,
+			},
+			["TOT"] = {
+				["TR"] = 1,
+				["TO"] = 1,
+				["TB"] = 1,
+				["useText"] = true,
+				["TG"] = 1,
+			},
+			["classColorsHeader"] = false,
+			["HEADER"] = {
+				["TG"] = 0.859,
+				["B"] = 0.082,
+				["TB"] = 0.38,
+				["barTexture"] = "Glaze",
+				["G"] = 0.514,
+				["TR"] = 1,
+				["font"] = "",
+				["TO"] = 1,
+				["textSize"] = 11,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 0.6,
+				["R"] = 0.6,
+			},
+			["classColorsName"] = 1,
+		},
+		["HOTS"] = {
+			["show"] = true,
+			["SLOTS"] = {
+				"Renew", -- [1]
+				"Prayer of Mending", -- [2]
+				"Power Word: Shield", -- [3]
+				"Guardian Spirit", -- [4]
+				"Abolish Disease", -- [5]
+			},
+			["showSwiftmend"] = false,
+			["radioValue"] = 21,
+			["BARS"] = {
+				["show"] = false,
+				["radioValue"] = 1,
+				["invertOrientation"] = false,
+				["invertDirection"] = false,
+				["width"] = 25,
+			},
+			["isFlatTexture"] = false,
+			["size"] = 75,
+		},
+		["SCALING"] = {
+			["isPlayerOnTop"] = true,
+			["targetWidth"] = 30,
+			["scale"] = 1,
+			["maxColumnsWhenStructured"] = 8,
+			["targetOrientation"] = 1,
+			["barWidth"] = 75,
+			["showRageBars"] = false,
+			["barHeight"] = 25,
+			["ommitEmptyWhenStructured"] = true,
+			["showTarget"] = false,
+			["raidIconScale"] = 1,
+			["vertical"] = false,
+			["headerSpacing"] = 5,
+			["maxRowsWhenLoose"] = 6,
+			["manaBarHeight"] = 1,
+			["headerWidth"] = 50,
+			["invertGrowth"] = false,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
+			["showManaBars"] = false,
+			["totSpacing"] = 3,
+			["showTot"] = false,
+			["targetSpacing"] = 3,
+			["headerHeight"] = 20,
+			["borderGapY"] = 5,
+			["borderGapX"] = 5,
+			["columnSpacing"] = 5,
+			["rowSpacing"] = 2,
+		},
+		["IS_RAID_ICON"] = false,
+		["LIFE_TEXT"] = {
+			["show"] = 1,
+			["mode"] = 3,
+			["position"] = 4,
+		},
+		["ID_TEXT"] = {
+			["showName"] = true,
+			["version"] = 2,
+			["position"] = "CENTER+CENTER",
+			["showTags"] = true,
+			["showPetOwners"] = true,
+		},
+	}, -- [10]
+	["BAR_COLORS"] = {
+		["HOT7"] = {
+			["useBackground"] = true,
+			["R"] = 1,
+			["O"] = 0.75,
+			["G"] = 1,
+			["B"] = 1,
+		},
+		["DEBUFF4"] = {
+			["TG"] = 0,
+			["B"] = 0.7,
+			["TB"] = 1,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0.7,
+		},
+		["DEBUFF1"] = {
+			["TG"] = 1,
+			["B"] = 0.8,
+			["TB"] = 0.6860000000000001,
+			["G"] = 0.592,
+			["TR"] = 0,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0,
+		},
+		["HOT4"] = {
+			["TG"] = 0.6,
+			["countdownMode"] = 1,
+			["B"] = 1,
+			["TB"] = 1,
+			["G"] = 0.3,
+			["TR"] = 0.6,
+			["TO"] = 1,
+			["isFullDuration"] = false,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 0.3,
+		},
+		["HOT1"] = {
+			["TG"] = 0.6,
+			["countdownMode"] = 1,
+			["B"] = 0.3,
+			["TB"] = 0.6,
+			["G"] = 0.3,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+		["HOT_CHARGE_4"] = {
+			["TG"] = 1,
+			["B"] = 0.8,
+			["TB"] = 1,
+			["G"] = 0.8,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 0.8,
+		},
+		["CHARMED"] = {
+			["TG"] = 0.31,
+			["B"] = 0.263,
+			["TB"] = 0.31,
+			["G"] = 0.082,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0.51,
+		},
+		["EMERGENCY"] = {
+			["TG"] = 0.82,
+			["B"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+		["NO_EMERGENCY"] = {
+			["TG"] = 0.82,
+			["B"] = 0.4,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0,
+		},
+		["HOTS"] = {
+			["useColorText"] = true,
+			["WARNING"] = {
+				["TG"] = 0.6,
+				["lowSecs"] = 3,
+				["B"] = 0.2,
+				["TB"] = 0.6,
+				["G"] = 0.2,
+				["TR"] = 1,
+				["TO"] = 1,
+				["enabled"] = false,
+				["useBackground"] = true,
+				["useText"] = true,
+				["O"] = 1,
+				["R"] = 0.5,
+			},
+			["useAmount"] = true,
+			["TEXT"] = {
+				["outline"] = true,
+				["shadow"] = false,
+			},
+			["isFadeOut"] = true,
+			["useColorBack"] = true,
+			["useCountdown"] = true,
+			["useSquare"] = true,
+		},
+		["DEBUFF0"] = {
+			["useBackground"] = false,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["HOT8"] = {
+			["useBackground"] = true,
+			["R"] = 1,
+			["O"] = 0.75,
+			["G"] = 1,
+			["B"] = 1,
+		},
+		["AGGRO"] = {
+			["useBackground"] = true,
+			["useOpacity"] = true,
+			["R"] = 1,
+			["useText"] = false,
+			["O"] = 1,
+			["G"] = 0,
+			["B"] = 0,
+		},
+		["IRRELEVANT"] = {
+			["TG"] = 0.82,
+			["B"] = 0.4,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = false,
+			["useText"] = false,
+			["O"] = 0.5,
+			["R"] = 0,
+		},
+		["DEAD"] = {
+			["TG"] = 0.5,
+			["B"] = 0.3,
+			["TB"] = 0.5,
+			["G"] = 0.3,
+			["TR"] = 0.5,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 0.5,
+			["R"] = 0.3,
+		},
+		["HOT5"] = {
+			["TG"] = 0.6,
+			["countdownMode"] = 1,
+			["B"] = 1,
+			["TB"] = 1,
+			["G"] = 0.3019607843137255,
+			["TR"] = 1,
+			["TO"] = 1,
+			["isFullDuration"] = false,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+		["OFFLINE"] = {
+			["TG"] = 0.576,
+			["B"] = 0.298,
+			["TB"] = 0.576,
+			["G"] = 0.298,
+			["TR"] = 0.576,
+			["TO"] = 0.58,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 0.21,
+			["R"] = 0.298,
+		},
+		["DEBUFF5"] = {
+			["useBackground"] = false,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["HOT_CHARGE_3"] = {
+			["TG"] = 1,
+			["B"] = 0.3,
+			["TB"] = 0.6,
+			["G"] = 1,
+			["TR"] = 0.6,
+			["TO"] = 1,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 0.3,
+		},
+		["HOT3"] = {
+			["TG"] = 1,
+			["countdownMode"] = 1,
+			["B"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["TR"] = 1,
+			["TO"] = 1,
+			["isFullDuration"] = false,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+		["HOT2"] = {
+			["TG"] = 1,
+			["countdownMode"] = 1,
+			["B"] = 0.3,
+			["TB"] = 0.6,
+			["G"] = 1,
+			["TR"] = 1,
+			["TO"] = 1,
+			["isFullDuration"] = false,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+		["DEBUFF2"] = {
+			["TG"] = 0,
+			["B"] = 0.4,
+			["TB"] = 0,
+			["G"] = 0.4,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0.8,
+		},
+		["BAR_FRAMES"] = {
+			["useBackground"] = true,
+			["R"] = 0,
+			["useOpacity"] = true,
+			["O"] = 0.7,
+			["G"] = 0,
+			["B"] = 0,
+		},
+		["PLAYER_TARGET"] = {
+			["useBackground"] = true,
+			["R"] = 0.7,
+			["O"] = 1,
+			["G"] = 0.7,
+			["B"] = 0.7,
+		},
+		["DEBUFF6"] = {
+			["TG"] = 0.5,
+			["B"] = 0,
+			["TB"] = 0,
+			["G"] = 0.3,
+			["TR"] = 0.8,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0.6,
+		},
+		["DEBUFF3"] = {
+			["TG"] = 0.957,
+			["B"] = 0.8,
+			["TB"] = 1,
+			["G"] = 0.4,
+			["TR"] = 0.329,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["R"] = 0.4,
+		},
+		["INCOMING"] = {
+			["TG"] = 0.82,
+			["B"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useOpacity"] = true,
+			["useBackground"] = false,
+			["useText"] = false,
+			["O"] = 0.33,
+			["R"] = 0,
+		},
+		["HOT6"] = {
+			["useBackground"] = true,
+			["R"] = 1,
+			["O"] = 0.75,
+			["G"] = 1,
+			["B"] = 1,
+		},
+		["OUTRANGED"] = {
+			["TG"] = 0,
+			["B"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 0,
+			["TO"] = 0.5,
+			["useOpacity"] = true,
+			["useBackground"] = false,
+			["useText"] = false,
+			["O"] = 0.25,
+			["R"] = 0,
+		},
+		["useDebuffIcon"] = false,
+		["HOT_CHARGE_2"] = {
+			["TG"] = 1,
+			["B"] = 0.3,
+			["TB"] = 0.6,
+			["G"] = 1,
+			["TR"] = 1,
+			["TO"] = 1,
+			["useText"] = true,
+			["useBackground"] = true,
+			["O"] = 1,
+			["R"] = 1,
+		},
+	},
+	["VERSION"] = 4,
+}
+VUHDO_SPELL_ASSIGNMENTS = {
+	["ctrlshift5"] = {
+		"ctrl-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["shift3"] = {
+		"shift-", -- [1]
+		"3", -- [2]
+		"menu", -- [3]
+	},
+	["ctrl1"] = {
+		"ctrl-", -- [1]
+		"1", -- [2]
+		"Prayer of Healing", -- [3]
+	},
+	["ctrl5"] = {
+		"ctrl-", -- [1]
+		"5", -- [2]
+		"Prayer of Mending", -- [3]
+	},
+	["altctrlshift4"] = {
+		"alt-ctrl-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["alt4"] = {
+		"alt-", -- [1]
+		"4", -- [2]
+		"Power Word: Shield", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"target", -- [3]
+	},
+	["3"] = {
+		"", -- [1]
+		"3", -- [2]
+		"Desperate Prayer", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"Greater Heal", -- [3]
+	},
+	["5"] = {
+		"", -- [1]
+		"5", -- [2]
+		"Binding Heal", -- [3]
+	},
+	["4"] = {
+		"", -- [1]
+		"4", -- [2]
+		"Renew", -- [3]
+	},
+	["altctrlshift1"] = {
+		"alt-ctrl-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrlshift5"] = {
+		"alt-ctrl-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altctrl3"] = {
+		"alt-ctrl-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrl2"] = {
+		"ctrl-", -- [1]
+		"2", -- [2]
+		"Circle of Healing", -- [3]
+	},
+	["shift2"] = {
+		"shift-", -- [1]
+		"2", -- [2]
+		"Dispel Magic", -- [3]
+	},
+	["altshift1"] = {
+		"alt-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrl1"] = {
+		"alt-ctrl-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrl5"] = {
+		"alt-ctrl-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altctrlshift2"] = {
+		"alt-ctrl-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["altctrl4"] = {
+		"alt-ctrl-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift1"] = {
+		"ctrl-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altshift2"] = {
+		"alt-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["shift4"] = {
+		"shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["altshift4"] = {
+		"alt-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["altshift5"] = {
+		"alt-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altshift3"] = {
+		"alt-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrl4"] = {
+		"ctrl-", -- [1]
+		"4", -- [2]
+		"Prayer of Mending", -- [3]
+	},
+	["shift1"] = {
+		"shift-", -- [1]
+		"1", -- [2]
+		"Abolish Disease", -- [3]
+	},
+	["ctrl3"] = {
+		"ctrl-", -- [1]
+		"3", -- [2]
+		"menu", -- [3]
+	},
+	["ctrlshift2"] = {
+		"ctrl-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["shift5"] = {
+		"shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift3"] = {
+		"ctrl-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["alt3"] = {
+		"alt-", -- [1]
+		"3", -- [2]
+		"Power Word: Shield", -- [3]
+	},
+	["ctrlshift4"] = {
+		"ctrl-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["alt2"] = {
+		"alt-", -- [1]
+		"2", -- [2]
+		"focus", -- [3]
+	},
+	["altctrlshift3"] = {
+		"alt-ctrl-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["altctrl2"] = {
+		"alt-ctrl-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"Flash Heal", -- [3]
+	},
+	["alt5"] = {
+		"alt-", -- [1]
+		"5", -- [2]
+		"Power Word: Shield", -- [3]
+	},
+}
+VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
+	["ctrlshift5"] = {
+		"ctrl-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["shift3"] = {
+		"shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrl1"] = {
+		"ctrl-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["ctrl5"] = {
+		"ctrl-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altctrlshift4"] = {
+		"alt-ctrl-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["alt4"] = {
+		"alt-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"target", -- [3]
+	},
+	["altctrlshift3"] = {
+		"alt-ctrl-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"assist", -- [3]
+	},
+	["5"] = {
+		"", -- [1]
+		"5", -- [2]
+		"menu", -- [3]
+	},
+	["4"] = {
+		"", -- [1]
+		"4", -- [2]
+		"menu", -- [3]
+	},
+	["altctrlshift1"] = {
+		"alt-ctrl-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrlshift5"] = {
+		"alt-ctrl-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altctrl3"] = {
+		"alt-ctrl-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrl2"] = {
+		"ctrl-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["shift2"] = {
+		"shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["altshift1"] = {
+		"alt-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrl1"] = {
+		"alt-ctrl-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["altctrl5"] = {
+		"alt-ctrl-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altctrlshift2"] = {
+		"alt-ctrl-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift1"] = {
+		"ctrl-shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["shift5"] = {
+		"shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["shift4"] = {
+		"shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["altctrl4"] = {
+		"alt-ctrl-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["altshift2"] = {
+		"alt-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["altshift3"] = {
+		"alt-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift4"] = {
+		"ctrl-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["shift1"] = {
+		"shift-", -- [1]
+		"1", -- [2]
+		"", -- [3]
+	},
+	["ctrl3"] = {
+		"ctrl-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift3"] = {
+		"ctrl-shift-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["alt5"] = {
+		"alt-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["altshift4"] = {
+		"alt-shift-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["alt3"] = {
+		"alt-", -- [1]
+		"3", -- [2]
+		"", -- [3]
+	},
+	["altshift5"] = {
+		"alt-shift-", -- [1]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["alt2"] = {
+		"alt-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["altctrl2"] = {
+		"alt-ctrl-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["ctrlshift2"] = {
+		"ctrl-shift-", -- [1]
+		"2", -- [2]
+		"", -- [3]
+	},
+	["ctrl4"] = {
+		"ctrl-", -- [1]
+		"4", -- [2]
+		"", -- [3]
+	},
+	["3"] = {
+		"", -- [1]
+		"3", -- [2]
+		"focus", -- [3]
+	},
+}
+VUHDO_CONFIG_SHOW_RAID = true
+VUHDO_MM_SETTINGS = {
+	["enabled"] = 1,
+	["drag"] = "CIRCLE",
+	["position"] = 0,
+}
+VUHDO_PLAYER_TARGETS = {
+}
+VUHDO_MAINTANK_NAMES = {
+}
+VUHDO_BUFF_SETTINGS = {
+	["Inner Fire"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["buff"] = "Inner Fire",
+	},
+	["Shadow Protection"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["buff"] = "Prayer of Shadow Protection",
+	},
+	["Fortitude"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["buff"] = "Prayer of Fortitude",
+	},
+	["VERSION"] = 2,
+	["Shadow Fiend"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["buff"] = "Shadowfiend",
+	},
+	["Fear Ward"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["name"] = "Zweer",
+	},
+	["Spirit"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["enabled"] = 1,
+		["buff"] = "Prayer of Spirit",
+	},
+	["CONFIG"] = {
+		["SWATCH_EMPTY_GROUP"] = {
+			["TG"] = 0.8,
+			["R"] = 0,
+			["TB"] = 0.8,
+			["G"] = 0,
+			["TR"] = 0.8,
+			["TO"] = 0.6,
+			["B"] = 0,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 0.5,
+			["useOpacity"] = true,
+		},
+		["SWATCH_COLOR_BUFF_OUT"] = {
+			["TG"] = 0,
+			["R"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 0.8,
+			["TO"] = 1,
+			["B"] = 0,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
+		},
+		["SHOW_LABEL"] = false,
+		["REFRESH_SECS"] = 1,
+		["SWATCH_COLOR_BUFF_COOLDOWN"] = {
+			["TG"] = 0.6,
+			["R"] = 0.3,
+			["TB"] = 0.6,
+			["G"] = 0.3,
+			["TR"] = 0.6,
+			["TO"] = 1,
+			["B"] = 0.3,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
+		},
+		["SWATCH_COLOR_BUFF_OKAY"] = {
+			["TG"] = 0.8,
+			["R"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 0,
+			["TO"] = 1,
+			["B"] = 0,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
+		},
+		["SHOW"] = 1,
+		["PANEL_BG_COLOR"] = {
+			["useBackground"] = true,
+			["B"] = 0,
+			["R"] = 0,
+			["G"] = 0,
+			["O"] = 0.5,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["SWATCH_COLOR_BUFF_LOW"] = {
+			["TG"] = 0.7,
+			["R"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 1,
+			["TO"] = 1,
+			["B"] = 0,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
+		},
+		["SCALE"] = 1,
+		["BAR_COLORS_TEXT"] = true,
+		["HIGHLIGHT_COOLDOWN"] = true,
+		["HIDE_CHARGES"] = 1,
+		["BAR_COLORS_FLAG"] = 1,
+		["BAR_COLORS_IN_FIGHT"] = false,
+		["SWATCH_MAX_ROWS"] = 2,
+		["SWATCH_BG_COLOR"] = {
+			["useBackground"] = true,
+			["B"] = 0,
+			["R"] = 0,
+			["G"] = 0,
+			["O"] = 1,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["PANEL_BORDER_COLOR"] = {
+			["useBackground"] = true,
+			["B"] = 0,
+			["R"] = 0,
+			["G"] = 0,
+			["O"] = 0.5,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["BAR_COLORS_BACKGROUND"] = true,
+		["AT_LEAST_MISSING"] = 2,
+		["REBUFF_MIN_MINUTES"] = 10,
+		["PANEL_MAX_BUFFS"] = 3,
+		["SWATCH_BORDER_COLOR"] = {
+			["useBackground"] = true,
+			["B"] = 0.8,
+			["R"] = 0.8,
+			["G"] = 0.8,
+			["O"] = 0,
+			["useText"] = false,
+			["useOpacity"] = false,
+		},
+		["POSITION"] = {
+			["y"] = -104.6,
+			["x"] = 99.2,
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+		},
+		["REBUFF_AT_PERCENT"] = 25,
+		["GROUP_SPELL_VERSION"] = "smart",
+		["SWATCH_COLOR_OUT_RANGE"] = {
+			["TG"] = 0,
+			["R"] = 0,
+			["TB"] = 0,
+			["G"] = 0,
+			["TR"] = 0,
+			["TO"] = 0.5,
+			["B"] = 0,
+			["useBackground"] = true,
+			["useText"] = true,
+			["O"] = 0.5,
+			["useOpacity"] = true,
+		},
+	},
+}
+VUHDO_POWER_TYPE_COLORS = {
+	{
+		["useBackground"] = true,
+		["R"] = 1,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 0,
+		["B"] = 0,
+	}, -- [1]
+	{
+		["useBackground"] = true,
+		["R"] = 1,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 0.5,
+		["B"] = 0.25,
+	}, -- [2]
+	{
+		["useBackground"] = true,
+		["R"] = 1,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 1,
+		["B"] = 0,
+	}, -- [3]
+	{
+		["useBackground"] = true,
+		["R"] = 0,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 1,
+		["B"] = 1,
+	}, -- [4]
+	nil, -- [5]
+	{
+		["useBackground"] = true,
+		["R"] = 0.5,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 0.5,
+		["B"] = 0.5,
+	}, -- [6]
+	[0] = {
+		["useBackground"] = true,
+		["R"] = 0,
+		["useOpacity"] = true,
+		["O"] = 1,
+		["G"] = 0,
+		["B"] = 1,
+	},
+}
+VUHDO_SPELLS_KEYBOARD = {
+	["SPELL15"] = "",
+	["SPELL6"] = "",
+	["SPELL13"] = "",
+	["HOSTILE_WHEEL"] = {
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
+			"", -- [3]
+		},
+		["altctrl2"] = {
+			"ALT-CTRL-", -- [1]
+			"-w10", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"w16", -- [2]
+			"", -- [3]
+		},
+		["2"] = {
+			"", -- [1]
+			"-w2", -- [2]
+			"", -- [3]
+		},
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
+			"", -- [3]
+		},
+		["shift2"] = {
+			"SHIFT-", -- [1]
+			"-w8", -- [2]
+			"", -- [3]
+		},
+		["altshift1"] = {
+			"ALT-SHIFT-", -- [1]
+			"-w11", -- [2]
+			"", -- [3]
+		},
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
+			"", -- [3]
+		},
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
+			"", -- [3]
+		},
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
+			"", -- [3]
+		},
+		["altshift2"] = {
+			"ALT-SHIFT-", -- [1]
+			"-w12", -- [2]
+			"", -- [3]
+		},
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift1"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"w15", -- [2]
+			"", -- [3]
+		},
+		["ctrlshift1"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w13", -- [2]
+			"", -- [3]
+		},
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
+			"", -- [3]
+		},
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
+			"", -- [3]
+		},
+	},
+	["SPELL3"] = "",
+	["SPELL4"] = "",
+	["SPELL2"] = "",
+	["SPELL16"] = "",
+	["SPELL7"] = "",
+	["SPELL12"] = "",
+	["SPELL5"] = "",
+	["SPELL9"] = "",
+	["SPELL10"] = "",
+	["SPELL14"] = "",
+	["WHEEL"] = {
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
+			"", -- [3]
+		},
+		["altctrl2"] = {
+			"ALT-CTRL-", -- [1]
+			"-w10", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"w16", -- [2]
+			"", -- [3]
+		},
+		["2"] = {
+			"", -- [1]
+			"-w2", -- [2]
+			"", -- [3]
+		},
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
+			"", -- [3]
+		},
+		["shift2"] = {
+			"SHIFT-", -- [1]
+			"-w8", -- [2]
+			"", -- [3]
+		},
+		["altshift1"] = {
+			"ALT-SHIFT-", -- [1]
+			"-w11", -- [2]
+			"", -- [3]
+		},
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
+			"", -- [3]
+		},
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
+			"", -- [3]
+		},
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
+			"", -- [3]
+		},
+		["altshift2"] = {
+			"ALT-SHIFT-", -- [1]
+			"-w12", -- [2]
+			"", -- [3]
+		},
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift1"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"w15", -- [2]
+			"", -- [3]
+		},
+		["ctrlshift1"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w13", -- [2]
+			"", -- [3]
+		},
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
+			"", -- [3]
+		},
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
+			"", -- [3]
+		},
+	},
+	["SPELL8"] = "",
+	["SPELL1"] = "",
+	["SPELL11"] = "",
+}
+VUHDO_SPELL_CONFIG = {
+	["IS_FIRE_HOT"] = false,
+	["IS_AUTO_FIRE"] = true,
+	["IS_FIRE_CUSTOM_2"] = false,
+	["IS_FIRE_TRINKET_2"] = true,
+	["IS_FIRE_TRINKET_1"] = true,
+	["smartCastModi"] = "all",
+	["IS_TOOLTIP_INFO"] = false,
+	["FIRE_CUSTOM_1_SPELL"] = "",
+	["FIRE_CUSTOM_2_SPELL"] = "",
+	["IS_KEEP_STANCE"] = false,
+	["IS_FIRE_CUSTOM_1"] = false,
+	["IS_FIRE_OUT_FIGHT"] = false,
+}
+VUHDO_BUFF_ORDER = {
+	["06Shadow Fiend"] = 6,
+	["02Spirit"] = 2,
+	["01Fortitude"] = 1,
+	["04Fear Ward"] = 4,
+	["03Shadow Protection"] = 3,
+	["05Inner Fire"] = 5,
+}
+VUHDO_SPEC_LAYOUTS = {
+	["1"] = "",
+	["selected"] = "",
+	["2"] = "",
+}
+VUHDO_LAST_AUTO_ARRANG = nil

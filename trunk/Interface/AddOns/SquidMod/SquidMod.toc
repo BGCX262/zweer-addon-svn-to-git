@@ -1,0 +1,9 @@
+## Interface: 20400
+## Author: Ganders (Original author: SAM)
+## Title: SquidMod
+## Notes: The most useless UI-mod in history. Since it doesn't enhance functionality really. It just makes WoW prettier. Type /squid for a list of commands. (Modified by Ganders)
+## Version: 1.7.2
+## SavedVariablesPerCharacter: SquidModSettings
+## OptionalDeps:
+## Dependencies:
+SquidMod.lua

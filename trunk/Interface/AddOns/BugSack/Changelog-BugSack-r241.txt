@@ -1,0 +1,87 @@
+------------------------------------------------------------------------
+r241 | sylvanaar | 2010-10-31 00:22:35 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.toc
+
+fix framexml.errors
+------------------------------------------------------------------------
+r240 | rabbit | 2010-10-25 22:11:09 +0000 (Mon, 25 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+Don't use the locale before it's defined, doh.
+------------------------------------------------------------------------
+r239 | rabbit | 2010-10-25 11:00:54 +0000 (Mon, 25 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.toc
+   D /trunk/Locales
+   A /trunk/locales.lua
+
+Convert to using the localization system.
+------------------------------------------------------------------------
+r238 | rabbit | 2010-10-22 13:51:33 +0000 (Fri, 22 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+HideUIPanel instead of :Hide(), yay.
+------------------------------------------------------------------------
+r237 | rabbit | 2010-10-22 13:32:36 +0000 (Fri, 22 Oct 2010) | 3 lines
+Changed paths:
+   M /trunk/BugSack.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/config.lua
+
+* Make some more strings localizable
+* Set preferredIndex on our StaticPopupDialog
+
+------------------------------------------------------------------------
+r236 | rabbit | 2010-10-18 10:27:18 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+Revert this stuff for now I need to redo the whole sack updating.
+------------------------------------------------------------------------
+r235 | rabbit | 2010-10-18 09:17:24 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+Decrement the currently shown error index when a new error occurs if the sack is open so that we properly stay put on the current error.
+------------------------------------------------------------------------
+r234 | rabbit | 2010-10-17 20:18:51 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+Don't change the current error if the sack is open while we catch a new one.
+------------------------------------------------------------------------
+r233 | rabbit | 2010-10-17 14:40:28 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/config.lua
+
+Fix font size dropdown.
+------------------------------------------------------------------------
+r232 | rabbit | 2010-10-14 22:00:54 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+
+Use the flashy new blizzard tab styles.
+------------------------------------------------------------------------
+r231 | rabbit | 2010-10-14 19:31:35 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.toc
+
+Toc bump.
+------------------------------------------------------------------------
+r230 | rabbit | 2010-10-14 11:48:33 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.lua
+   A /trunk/Media/error.ogg
+   D /trunk/Media/error.wav
+
+Convert to ogg for 4.0.
+------------------------------------------------------------------------
+r229 | sylvanaar | 2010-09-02 16:34:02 +0000 (Thu, 02 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/BugSack.toc
+
+## X-Compatible-With: 40000
+------------------------------------------------------------------------

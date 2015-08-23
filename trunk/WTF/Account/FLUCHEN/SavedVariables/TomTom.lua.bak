@@ -1,0 +1,19 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}

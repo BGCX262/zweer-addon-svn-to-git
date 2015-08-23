@@ -1,0 +1,3 @@
+
+RaidBuffStatusDB = nil
+RaidBuffStatusDefaultProfile = nil

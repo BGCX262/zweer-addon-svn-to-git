@@ -1,0 +1,32 @@
+
+InlineAuraDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+			["spells"] = {
+				["Inner Fire"] = {
+				},
+				["Greater Heal"] = {
+				},
+				["Shackle Undead"] = {
+				},
+				["Flash Heal"] = {
+				},
+				["Prayer of Healing"] = {
+				},
+				["Vampiric Embrace"] = {
+				},
+				["Unknown spell #976"] = {
+				},
+				["Unknown spell #14752"] = {
+				},
+			},
+		},
+	},
+}

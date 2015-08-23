@@ -1,0 +1,287 @@
+------------------------------------------------------------------------
+r698 | jerry | 2010-11-08 17:26:50 +0000 (Mon, 08 Nov 2010) | 1 line
+Changed paths:
+   A /tags/v3.0-beta5 (from /trunk:697)
+
+Tagging as v3.0-beta5
+------------------------------------------------------------------------
+r697 | jerry | 2010-11-08 17:25:11 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/target.lua
+
+Fix Ticket-123
+
+------------------------------------------------------------------------
+r696 | jerry | 2010-11-08 13:02:44 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/Locales/zhTW.lua
+
+Ticket-115. Update zhTW locale. Thank NightOw1
+
+------------------------------------------------------------------------
+r694 | jerry | 2010-11-08 12:57:36 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+fix typo (Ticket-122)
+
+------------------------------------------------------------------------
+r692 | jerry | 2010-11-08 09:56:58 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/Talented.toc
+   M /trunk/core.lua
+   A /trunk/target.lua
+   M /trunk/ui/menu.lua
+   M /trunk/view.lua
+
+resume Target functionality
+
+------------------------------------------------------------------------
+r691 | jerry | 2010-11-08 09:08:40 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Try to fix Ticket-100 by reducing the amount of taint produced by Talented.
+
+------------------------------------------------------------------------
+r690 | jerry | 2010-11-08 09:08:05 +0000 (Mon, 08 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/ui/base.lua
+   M /trunk/view.lua
+
+Fix Ticket-121, graphical improvements
+
+------------------------------------------------------------------------
+r689 | jerry | 2010-11-07 11:06:14 +0000 (Sun, 07 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Typo fix Ticket-120
+
+------------------------------------------------------------------------
+r688 | jerry | 2010-11-06 16:39:49 +0000 (Sat, 06 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/editmode.lua
+
+Fix Tickets 116, 117 and 118
+
+------------------------------------------------------------------------
+r687 | jerry | 2010-11-05 18:57:28 +0000 (Fri, 05 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Fix Ticket-114
+
+------------------------------------------------------------------------
+r686 | jerry | 2010-11-05 16:31:49 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/ui/menu.lua
+
+Really fix Ticket-109. Thanks Kazragore
+------------------------------------------------------------------------
+r685 | jerry | 2010-11-05 16:30:34 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/scripts/Makefile
+
+Fix Ticket-109. Thanks Kazragore
+------------------------------------------------------------------------
+r684 | jerry | 2010-11-05 14:43:43 +0000 (Fri, 05 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+yet another typo fix
+
+------------------------------------------------------------------------
+r683 | jerry | 2010-11-05 12:40:41 +0000 (Fri, 05 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+typo fix.
+
+------------------------------------------------------------------------
+r682 | jerry | 2010-11-05 07:37:56 +0000 (Fri, 05 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/spell.lua
+
+Make sure no template can be created with phony class.
+
+------------------------------------------------------------------------
+r681 | jerry | 2010-11-04 09:57:38 +0000 (Thu, 04 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/spell.lua
+
+typo fix. Fix Ticket 113
+
+------------------------------------------------------------------------
+r680 | jerry | 2010-11-04 07:35:38 +0000 (Thu, 04 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/spell.lua
+
+Introduce some defect detection code to check Ticket-108
+
+------------------------------------------------------------------------
+r679 | chkid | 2010-10-27 11:17:29 +0000 (Wed, 27 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/koKR.lua
+
+koKR Update
+------------------------------------------------------------------------
+r677 | jerry | 2010-10-26 18:31:17 +0000 (Tue, 26 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/zhTW.lua
+   M /trunk/apply.lua
+   M /trunk/chat.lua
+   M /trunk/core.lua
+   M /trunk/editmode.lua
+   M /trunk/inspectui.lua
+   M /trunk/options.lua
+   M /trunk/pet.lua
+   M /trunk/tips.lua
+   M /trunk/ui/menu.lua
+   M /trunk/view.lua
+   M /trunk/viewmode.lua
+   M /trunk/whpet.lua
+   M /trunk/wowhead.lua
+
+Fixes Ticket 101,102 and 103
+------------------------------------------------------------------------
+r676 | jerry | 2010-10-20 17:39:28 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/ui/lines.lua
+   M /trunk/ui/trees.lua
+   M /trunk/view.lua
+
+Provides several graphical tweaks.
+------------------------------------------------------------------------
+r675 | jerry | 2010-10-20 16:50:35 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/editmode.lua
+
+Fix :GetTemplateMasteryState(). And Ticket-97
+------------------------------------------------------------------------
+r673 | jerry | 2010-10-19 10:02:50 +0000 (Tue, 19 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/view.lua
+
+typo fix Ticket-96. Strange it passed the svn hook.
+
+------------------------------------------------------------------------
+r672 | jerry | 2010-10-19 07:06:00 +0000 (Tue, 19 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/view.lua
+
+Reimplement TALENT_LEVELS so that it fills the values when requested. Should fix reports of GetReqLevel() returning nil
+
+------------------------------------------------------------------------
+r671 | jerry | 2010-10-18 17:45:26 +0000 (Mon, 18 Oct 2010) | 3 lines
+Changed paths:
+   M /trunk/chat.lua
+   M /trunk/spelldata.lua
+   M /trunk/ui/menu.lua
+
+Fix mage spell data (by hand, for now)
+Correct menu display.
+Fix Dialog box display.
+------------------------------------------------------------------------
+r670 | jerry | 2010-10-18 17:00:11 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/view.lua
+
+bugfix level required calculation.
+------------------------------------------------------------------------
+r669 | jerry | 2010-10-18 16:51:41 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/apply.lua
+
+bugfix template application
+------------------------------------------------------------------------
+r668 | jerry | 2010-10-18 16:33:45 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/editmode.lua
+
+Bugfix Talented:GetTemplateMasteryState()
+------------------------------------------------------------------------
+r667 | chkid | 2010-10-18 15:01:09 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/koKR.lua
+
+Fixed koKR locale syntax error
+------------------------------------------------------------------------
+r666 | chkid | 2010-10-18 12:39:36 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Locales/koKR.lua
+
+koKR Update
+------------------------------------------------------------------------
+r665 | jerry | 2010-10-18 08:46:27 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Fix Ticket-92. Automatically disable Talented_Loader so that it doesn't mess with us in future UI loading process.
+
+------------------------------------------------------------------------
+r664 | jerry | 2010-10-18 08:39:57 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Fix Ticket-93
+
+------------------------------------------------------------------------
+r663 | jerry | 2010-10-18 08:26:14 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/docs/main.txt
+
+Document the update
+
+------------------------------------------------------------------------
+r662 | jerry | 2010-10-18 08:06:32 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/apply.lua
+   M /trunk/editmode.lua
+   M /trunk/ui/menu.lua
+
+Fix template application. Safe as I don't call LearnPreviewTalents() now. User has to do it himself. drycoded
+
+------------------------------------------------------------------------
+r661 | jerry | 2010-10-17 15:45:56 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   D /trunk/GlyphFrame
+   D /trunk/SpecTabs
+   M /trunk/Talented.toc
+   M /trunk/check.lua
+   M /trunk/core.lua
+   D /trunk/glyph.lua
+   D /trunk/locales.xml
+   M /trunk/options.lua
+   M /trunk/pet.lua
+   M /trunk/scripts/config.lua
+   M /trunk/scripts/mkfulldata.lua
+   M /trunk/scripts/wowdata.lua
+   M /trunk/spell.lua
+   M /trunk/spelldata.lua
+   M /trunk/tabdata.lua
+   D /trunk/ui/arrows.lua
+   M /trunk/ui/base.lua
+   D /trunk/ui/branches.lua
+   D /trunk/ui/buttons.lua
+   M /trunk/ui/lines.lua
+   M /trunk/ui/menu.lua
+   M /trunk/ui/trees.lua
+   M /trunk/view.lua
+
+Talented: First wow4 compatible alpha.
+------------------------------------------------------------------------
+r660 | jerry | 2010-08-11 07:08:21 +0000 (Wed, 11 Aug 2010) | 3 lines
+Changed paths:
+   M /trunk/SpecTabs/core.lua
+
+_ Revert the hack to make SpecTabs update after mending a new pet. Better to have Blizzard fix it.
+_ Only Update the spec tabs when they are shown. This fixes Ticket-89.
+
+------------------------------------------------------------------------

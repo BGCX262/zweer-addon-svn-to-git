@@ -1,0 +1,23 @@
+
+Examiner_Config = {
+	["makeMovable"] = false,
+	["inspectFeats"] = true,
+	["showFeatsId"] = false,
+	["cacheSort"] = "class",
+	["featsStub"] = -1,
+	["clearInspectOnHide"] = false,
+	["featsCat"] = 92,
+	["cacheFilter"] = "",
+	["alwaysShowItemLevel"] = false,
+	["featsFilter"] = "",
+	["autoInspect"] = true,
+	["featsSort"] = "none",
+	["statsViewType"] = 1,
+	["caching"] = {
+	},
+	["showBackground"] = true,
+	["percentRatings"] = false,
+	["combineAdditiveStats"] = true,
+}
+Examiner_Cache = {
+}

@@ -1,0 +1,9 @@
+
+XLoot_Options = {
+	["characters"] = {
+	},
+	["profiles"] = {
+		["default"] = {
+		},
+	},
+}

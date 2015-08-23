@@ -1,0 +1,16 @@
+tag 4.0.0.31-Release
+73d126c1ed4ef16239697e010b2f16d739ae7ea3
+tekkub <tekkub@gmail.com>
+2010-10-24 03:20:25 -0600
+
+Weekly build
+
+
+--------------------
+
+tekkub:
+	- Weekly build 4.0.0.31-Release
+	- Update changelog for 4.0.0.31-Release
+	- Updating TOC to 40000
+	- New 4.0 items
+	fixes #7

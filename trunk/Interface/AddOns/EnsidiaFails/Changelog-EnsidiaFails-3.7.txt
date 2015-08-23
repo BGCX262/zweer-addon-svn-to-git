@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r234 | mysticalos | 2010-10-18 04:33:14 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   A /tags/3.7 (from /trunk:233)
+
+Tagging as 3.7
+------------------------------------------------------------------------
+r233 | mysticalos | 2010-10-18 04:29:46 +0000 (Mon, 18 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/EnsidiaFails.toc
+
+Bump toc and let it also brag new talent scan libs so it can recognize tanks again.
+------------------------------------------------------------------------
+r232 | oscarucb | 2010-08-26 05:14:07 +0000 (Thu, 26 Aug 2010) | 2 lines
+Changed paths:
+   M /trunk/EnsidiaFails.toc
+
+fix AddonLoader clause to also detect /ef
+
+------------------------------------------------------------------------

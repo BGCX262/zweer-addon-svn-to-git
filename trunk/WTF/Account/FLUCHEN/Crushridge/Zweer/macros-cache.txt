@@ -1,0 +1,68 @@
+MACRO 16777247 "DM" INV_Misc_QuestionMark
+#showtooltip
+/tar vapor
+/cast Mind Spike
+END
+MACRO 16777239 "Fear" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Psychic Scream
+/cast [mod:CTRL] Psychic Horror
+END
+MACRO 16777242 "Flay" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Mind Flay
+/cast [mod:CTRL] Mind Sear
+END
+MACRO 16777245 "Inner" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Inner Fire
+/cast [mod:CTRL] Inner Will
+END
+MACRO 16777246 "MC MV" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Mind vision
+/cast [mod:CTRL] Mind control
+END
+MACRO 16777241 "Mind" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Mind Blast
+/cast [mod:CTRL] Mind Spike
+END
+MACRO 16777217 "My Shackle" INV_Misc_QuestionMark
+#showtooltip
+/focus [target=focus,noexists][target=focus,dead][target=focus,noharm][mod]
+/cast [target=focus] Shackle Undead
+END
+MACRO 16777228 "My Shadowfiend o" INV_Misc_QuestionMark
+#showtooltip Shadowfiend
+/cast Shadowfiend
+/cast [pet, nomodifier] Shadowcrawl
+END
+MACRO 16777220 "My Shield" Spell_Shadow_DemonicTactics
+#showtooltip Power Word: Shield
+/cast [help] Power Word: Shield; [target=player] Power Word: Shield
+/script local n if(UnitIsFriend("player","target")) then n=UnitName("target") else n=UnitName("player") end
+END
+MACRO 16777249 "Pain/Mana" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:CTRL] Shadow Word: Pain
+/cast [mod:CTRL] Mana Burn
+END
+MACRO 16777244 "quest" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Cadaver] Shadow Word: Death
+END
+MACRO 16777248 "Quest" INV_Misc_QuestionMark
+#showtooltip
+/tar Archmage Galus
+/cast Devouring Plague
+END
+MACRO 16777237 "Stop cast" Ability_Creature_Cursed_04
+/stopcasting
+END
+MACRO 16777238 "VuhDoDCShieldData" Ability_Hunter_FerociousInspiration
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777243 "VuhDoDCShieldNames" Ability_Hunter_FerociousInspiration
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zwe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

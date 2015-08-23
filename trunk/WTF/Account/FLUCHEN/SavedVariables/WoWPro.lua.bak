@@ -1,0 +1,10 @@
+
+WoWProData = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

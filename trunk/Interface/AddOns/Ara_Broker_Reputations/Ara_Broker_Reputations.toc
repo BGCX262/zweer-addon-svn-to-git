@@ -1,0 +1,18 @@
+## Interface: 40000
+## Title: |cFFFFB366Ara|r - Broker - Reputations
+## Version: r7
+## Author: Ara
+## Notes: Display watched faction and a Blizzard-like faction list (colored bars in a tree view).
+## OptionalDeps:
+## SavedVariables: AraReputationsDB
+## X-WoWI-ID: 14263
+
+## LoadManagers: AddonLoader, SupplyAndDemand, ForkliftGnome
+## X-LoadOn-Always: delayed
+## X-S&D-Always: true
+
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1.lua
+
+Ara_Broker_Reputations.lua

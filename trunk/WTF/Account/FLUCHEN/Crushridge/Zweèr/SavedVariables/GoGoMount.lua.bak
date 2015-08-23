@@ -1,0 +1,16 @@
+
+GoGo_Prefs = {
+	["DruidClickForm"] = true,
+	["GlobalPrefMount"] = false,
+	["DruidFlightForm"] = false,
+	["DisableMountNotice"] = false,
+	["autodismount"] = true,
+	["DisableUpdateNotice"] = false,
+	["version"] = "4.0.13",
+	["GlobalPrefMounts"] = {
+	},
+	["UnknownMounts"] = {
+	},
+}
+GoGo_DebugLog = {
+}

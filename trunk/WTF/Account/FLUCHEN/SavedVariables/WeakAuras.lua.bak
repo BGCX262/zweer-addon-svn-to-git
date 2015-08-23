@@ -1,0 +1,8 @@
+
+WeakAurasSaved = {
+	["displays"] = {
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
+}

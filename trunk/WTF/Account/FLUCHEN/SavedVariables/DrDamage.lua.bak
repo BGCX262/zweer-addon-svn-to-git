@@ -1,0 +1,10 @@
+
+DrDamageDB = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}

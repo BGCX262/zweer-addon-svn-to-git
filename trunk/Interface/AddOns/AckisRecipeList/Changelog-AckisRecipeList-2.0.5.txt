@@ -1,0 +1,46 @@
+tag 2.0.5
+28cebea5f71b360b7724304ac579133f951f5656
+James D. Callahan III <darkenelf@gmail.com>
+2010-11-08 23:14:18 -0500
+
+Tagging new release.
+
+
+--------------------
+
+mike:
+	- Added "Glyph of Colossus Smash" to the Inscription database
+	- oops, forgot to remove the dup of "Shifting Twilight Opal"
+	- Finally fix the damn Jewelcrafting database, no more duplicates!
+James D. Callahan III:
+	- Fixed the version fix.
+	- Make sure actual development versions show the version as "Devel". Alpha versions will now show "version-Alpha".
+mike:
+	- Fixed issue where the unknown recipes of your professions wasn't showing in a unit's tooltip.
+	- clean up .pkgmeta a little
+	- sigh, fixed a syntax error and fixed some drycode c/p
+	- Removed the specialty data from the recipes that used to require it, however added the "bugged" custom string because trainers aren't teaching those recipes for whatever reason...
+	- Added the following glyphs: Glyph of Blind, Glyph of Feral Charge, Glyph of Intercept, Glyph of Tiger's Fury, Glyph of Lacerate, Glyph of Faerie Fire
+John Pasula:
+	- .docmeta update
+	- Even more Doc updates.
+	- More Doc updates.
+	- Doc updates.
+mike:
+	- Applied Kolenka's patch to have ARL use MrTrader's latest API.
+	- Added the custom string about bugged recipes to the recipes that used to require the Dragonscale Leatherworking specialty
+	- Added new recipes: "Vanishing Powder" and "Glyph of Death Wish" to the Inscription database
+	- Added the new "Glyph of Living Bomb"
+	- ran DumpProfession("inscription") to update the inscription database since a lot of glyphs were removed/replaced/renamed .. Hopefully this doesn't cause any issues.
+	- Added the custom string to "Glyph of Mage Armor" to mention it's bugged for the latest build 4.0.1 ...... If anyone knows of other recipes currently bugged in wow 4.0.1 .. please report them :).  Thanks.
+	- Add a new custom string
+	- Tailoring database: Removed the specialty data from the recipes that used to require it
+	- Leatherworking database: Removed the specialty data from the recipes that used to require it
+	- Started fixing the Jewelcrafting database, dang you Blizzard :).  Still more duplicates to remove, will get to that.
+	- Fixed issue where the NPC ID wasn't showing correctly due to UnitGUID() being changed in 4.0.1
+	- Fixed an error when typing "/arl filter" ... the interface options filter panel was removed a long time ago
+	- Removed the rest of the crafted shells/arrow from Engineering
+	- Removed "Shatter Rounds" and "Iceblade Arrow"
+	- Removed all the Vellums, and replaced them with the Enchanting Vellum
+James D. Callahan III:
+	- Removed the following Leatherworking recipes: Light Leather Quiver, Small Leather Ammo Pouch, Heavy Quiver, Heavy Leather Ammo Pouch, Quickdraw Quiver, Thick Leather Ammo Pouch, Knothide Ammo Pouch, Knothide Quiver, Netherscale Ammo Pouch, Dragonscale Ammo Pouch, Nerubian Reinforced Quiver.

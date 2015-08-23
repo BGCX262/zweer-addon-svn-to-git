@@ -1,0 +1,10 @@
+
+CollectinatorDB = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "zwe",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}

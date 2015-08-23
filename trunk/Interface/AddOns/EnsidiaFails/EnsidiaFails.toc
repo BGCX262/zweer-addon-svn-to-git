@@ -1,0 +1,33 @@
+﻿## Interface: 40000
+## Title: EnsidiaFails
+## Title-zhTW: EnsidiaFails 失誤報告
+## Title-zhCN: EnsidiaFails 失误报告
+## Notes: Reports in raid chat whenever a raid member "fails."  /EnsidiaFails to configure.
+## Notes-zhTW: 每當團隊成員"失誤"時，在團隊頻道報告。 /EnsidiaFails 開啟選項。
+## Notes-zhCN: 每当团队成员"失误"时，在团队频道报告。 /EnsidiaFails 开启选项。
+## Author: Caleb
+## Credits: Veev for idea and some code
+## X-Category: Raid
+## SavedVariables: EnsidiaFailsDB, EnsidiaFails_FailCount, EnsidiaFails_OFailCount
+## OptionalDeps: Ace3, LibSimpleTimer-1.0, LibBabble-Boss-3.0, LibBabble-Zone-3.0, LibGroupTalents-1.0, LibTalentQuery-1.0, LibFail-1.0
+## LoadManagers: AddonLoader
+## X-LoadOn-Zone: Ulduar, Naxxramas, The Obsidian Sanctum, The Ruby Sanctum, Vault of Archavon, Trial of the Crusader, Onyxia's Lair, The Eye of Eternity, Icecrown Citadel
+## X-LoadOn-Slash: /EnsidiaFails, /ef
+## X-Curse-Packaged-Version: 3.7
+## X-Curse-Project-Name: EnsidiaFails
+## X-Curse-Project-ID: ensidiafails
+## X-Curse-Repository-ID: wow/ensidiafails/mainline
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+EnsidiaFails-enUS.lua
+EnsidiaFails-deDE.lua
+EnsidiaFails-frFR.lua
+EnsidiaFails-koKR.lua
+EnsidiaFails-ruRU.lua
+EnsidiaFails-zhTW.lua
+EnsidiaFails-zhCN.lua
+EnsidiaFails-esES.lua
+EnsidiaFails.lua

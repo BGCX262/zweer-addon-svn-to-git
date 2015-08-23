@@ -1,0 +1,13 @@
+
+Broker_GroupConfig = {
+	["RollOnClick"] = true,
+	["ClearTimer"] = "30",
+	["StandardRollsOnly"] = true,
+	["DisplayDungeonDiff"] = false,
+	["DungeonDiffType"] = "AUTO",
+	["DungeonDiffShortText"] = false,
+	["LootMethod"] = "group",
+	["OutputChannel"] = "LOCAL",
+	["DisplayLootTypeButton"] = true,
+	["LootThreshold"] = "2",
+}

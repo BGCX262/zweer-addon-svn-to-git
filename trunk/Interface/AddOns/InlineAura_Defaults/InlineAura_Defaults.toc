@@ -1,0 +1,14 @@
+## Interface: 40000
+## X-Curse-Packaged-Version: v1.5-beta-16
+## X-Curse-Project-Name: Inline Aura
+## X-Curse-Project-ID: inline-aura
+## X-Curse-Repository-ID: wow/inline-aura/mainline
+
+## Title: Inline Aura - Default spell configuration
+## Author: Adirelle
+## LoadOnDemand: 1
+## Version: v1.5-beta-16 
+## X-Date: 2010-11-15T13:52:15Z
+
+..\InlineAura\Defaults.lua
+

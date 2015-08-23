@@ -1,0 +1,243 @@
+------------------------------------------------------------------------
+r478 | ammo | 2010-11-11 21:59:03 +0000 (Thu, 11 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Invite.lua
+
+fix unsetting of keyword errors
+------------------------------------------------------------------------
+r477 | 7destiny | 2010-11-05 10:16:31 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/locales/koKR.lua
+
+koKR Update
+------------------------------------------------------------------------
+r476 | StingerSoft | 2010-11-05 09:38:22 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/locales/ruRU.lua
+
+ruRU update
+------------------------------------------------------------------------
+r475 | rabbit | 2010-11-05 02:34:50 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+Fix profile options.
+------------------------------------------------------------------------
+r474 | rabbit | 2010-11-05 01:33:10 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Use a flow layout for the cooldowns so we don't have to scroll so much.
+------------------------------------------------------------------------
+r473 | rabbit | 2010-11-05 00:49:32 +0000 (Fri, 05 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+Fix login error.
+------------------------------------------------------------------------
+r472 | ammo | 2010-11-04 20:51:33 +0000 (Thu, 04 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/libs.xml
+   M /trunk/locales/enUS.lua
+   M /trunk/oRA3.lua
+
+profile changing support commit, untested due to nagging wife
+------------------------------------------------------------------------
+r471 | rabbit | 2010-11-04 20:41:00 +0000 (Thu, 04 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Add a :IsOnCD convenience method.
+------------------------------------------------------------------------
+r470 | ammo | 2010-11-04 20:07:13 +0000 (Thu, 04 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Loot.lua
+
+fix ticket 48 clearing lootmaster nogt making yourself lootmaster
+------------------------------------------------------------------------
+r469 | rabbit | 2010-10-26 22:32:34 +0000 (Tue, 26 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+Center labels in the check headers.
+------------------------------------------------------------------------
+r468 | rabbit | 2010-10-25 23:39:17 +0000 (Mon, 25 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Invite.lua
+
+Case-insensitive keyword invites.
+------------------------------------------------------------------------
+r467 | rabbit | 2010-10-24 10:02:22 +0000 (Sun, 24 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Add Tranquility.
+------------------------------------------------------------------------
+r466 | rabbit | 2010-10-22 13:34:38 +0000 (Fri, 22 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+Set preferredIndex on our StaticPopup.
+------------------------------------------------------------------------
+r465 | mojosdojo | 2010-10-21 19:43:03 +0000 (Thu, 21 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+More or less all CDs / glyphs / talents finished.
+------------------------------------------------------------------------
+r464 | grum | 2010-10-21 19:24:05 +0000 (Thu, 21 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/modules/ReadyCheck.lua
+
+Removed excess SendChatMessage( ..., RAID ).
+
+------------------------------------------------------------------------
+r463 | rabbit | 2010-10-21 16:12:16 +0000 (Thu, 21 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Add 10 missing glyphs and some random spells.
+------------------------------------------------------------------------
+r462 | rabbit | 2010-10-20 17:14:37 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Add shaman CDs + some DK and druid ones.
+------------------------------------------------------------------------
+r461 | rabbit | 2010-10-20 16:52:14 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+   M /trunk/modules/ReadyCheck.lua
+
+Add lots of warlock abilities, Raise Dead+AMZ for DK, PoM for Priest and Enrage for Bears + some glyphs.
+------------------------------------------------------------------------
+r460 | rabbit | 2010-10-20 14:58:27 +0000 (Wed, 20 Oct 2010) | 4 lines
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+* Add more druid CDs and scan talents
+* Show spell tooltip while hovering the ability in the UI
+* Show spell icon alongside each checkbox
+
+------------------------------------------------------------------------
+r459 | mojosdojo | 2010-10-20 13:18:43 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Update GetGlyphSocketInfo for the new returns.
+------------------------------------------------------------------------
+r458 | mysticalos | 2010-10-20 04:05:17 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Fix all the lua errors in cooldowns.lua. weird special symbol in place of spaces and a missing closing )
+------------------------------------------------------------------------
+r457 | kagaro | 2010-10-20 03:11:30 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+
+Updated tanks modules as per rspecs requested. We only check when a player choose tank to add them to the tank list if they werent previously deleted from the tank list.
+------------------------------------------------------------------------
+r456 | kagaro | 2010-10-20 02:19:54 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+   M /trunk/oRA3.lua
+
+Revert out the Role Check tanks.
+------------------------------------------------------------------------
+r455 | rabbit | 2010-10-20 01:49:38 +0000 (Wed, 20 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Update some talent scanners for 4.0; drycoded. Also added tons of new spells to track for most classes.
+------------------------------------------------------------------------
+r454 | kagaro | 2010-10-19 22:42:15 +0000 (Tue, 19 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+
+Possible fix for Stans issues with 'xx not in your party' message .. granted none of the Functions we call generate the message
+------------------------------------------------------------------------
+r453 | rabbit | 2010-10-17 20:40:01 +0000 (Sun, 17 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/oRA3.toc
+
+Toc bump.
+
+------------------------------------------------------------------------
+r452 | StingerSoft | 2010-10-17 20:18:46 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/locales/ruRU.lua
+
+ruRU update
+------------------------------------------------------------------------
+r451 | kagaro | 2010-10-17 17:01:54 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+
+Fixed a bug when leaving combat, causing a button to enable
+------------------------------------------------------------------------
+r450 | mojosdojo | 2010-10-17 02:58:55 +0000 (Sun, 17 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/locales/deDE.lua
+   M /trunk/modules/Cooldowns.lua
+
+All cooldowns + glyphs available. Talent checks are still missing.
+------------------------------------------------------------------------
+r449 | kagaro | 2010-10-15 14:40:11 +0000 (Fri, 15 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+
+Adjusted Tanks module, so we only call CheckPArtyAssignment when in raid.
+------------------------------------------------------------------------
+r448 | kagaro | 2010-10-14 19:45:19 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Tanks.lua
+   M /trunk/oRA3.lua
+
+Updated Tanks module. For tanks set via SetRole and not MAINTANK, when removed form the list, they will not float back up during role changes unless they are raid promoted to MT which clears the deletion mark.
+------------------------------------------------------------------------
+r447 | mojosdojo | 2010-10-14 19:28:23 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+More cooldowns confirmed. Missing Warlock, Warrior, DK.
+------------------------------------------------------------------------
+r446 | mysticalos | 2010-10-14 17:25:32 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+Finished updating glyph CDs
+------------------------------------------------------------------------
+r445 | rabbit | 2010-10-14 17:18:54 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+   M /trunk/oRA3.lua
+
+Adjust frame position.
+------------------------------------------------------------------------
+r444 | mojosdojo | 2010-10-14 16:44:59 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+First part of cooldowns update. Still missing talent checks.
+------------------------------------------------------------------------
+r443 | kagaro | 2010-10-14 16:13:58 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+Added check for raid members self picking roles i.e. instead of just using Set Main Tank option a raid leader can do a role check and assign tanks via player selections.
+------------------------------------------------------------------------
+r442 | starinnia | 2010-10-14 14:02:53 +0000 (Thu, 14 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns.lua
+
+update Rebirth spellId and cooldown duration
+------------------------------------------------------------------------
+r441 | rabbit | 2010-08-09 11:45:21 +0000 (Mon, 09 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Invite.lua
+
+Fix BN invites.
+------------------------------------------------------------------------

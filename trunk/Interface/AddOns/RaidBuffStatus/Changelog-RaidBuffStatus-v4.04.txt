@@ -1,0 +1,172 @@
+------------------------------------------------------------------------
+r418 | danielbarron | 2010-11-17 22:53:44 +0000 (Wed, 17 Nov 2010) | 2 lines
+Changed paths:
+   A /tags/v4.04 (from /trunk:417)
+
+RaidBuffStatus:
+- Tagged as stable.  Talent inspection now fixed thanks to Blizz.
+------------------------------------------------------------------------
+r417 | danielbarron | 2010-11-07 13:00:10 +0000 (Sun, 07 Nov 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+RaidBuffStatus:
+- Fixed bug with Slacking Paladins.
+------------------------------------------------------------------------
+r416 | danielbarron | 2010-11-04 23:08:01 +0000 (Thu, 04 Nov 2010) | 4 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Config.lua
+   M /trunk/Core.lua
+
+RaidBuffStatus:
+- Added option to scale Buff Options window.
+- Paladin blessings now reports who is buffing which.
+- Fixed bug so RBS no longer required Intellect for Hunters.
+------------------------------------------------------------------------
+r414 | danielbarron | 2010-10-31 16:07:01 +0000 (Sun, 31 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+RaidBuffStatus:
+- Added Slacking Paladins detection.
+------------------------------------------------------------------------
+r413 | danielbarron | 2010-10-30 16:55:12 +0000 (Sat, 30 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+RaidBuffStatus:
+- Disabled weapon checking by default until Blizz fix their inspectnotify throttling bug.
+------------------------------------------------------------------------
+r412 | oscarucb | 2010-10-28 19:58:23 +0000 (Thu, 28 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+ticket 277 - disable NotifyInspect calls that can trigger the server inspect bug
+
+------------------------------------------------------------------------
+r411 | oscarucb | 2010-10-25 21:32:11 +0000 (Mon, 25 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/embeds.xml
+
+try again to bump the packager
+
+------------------------------------------------------------------------
+r410 | oscarucb | 2010-10-25 17:24:49 +0000 (Mon, 25 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/embeds.xml
+
+bump the packager - hooray for wowace server bugs
+
+------------------------------------------------------------------------
+r409 | oscarucb | 2010-10-25 17:15:49 +0000 (Mon, 25 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/embeds.xml
+
+add nolib strip tags (ticket 280)
+
+------------------------------------------------------------------------
+r408 | oscarucb | 2010-10-24 22:53:02 +0000 (Sun, 24 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Config.lua
+   M /trunk/Core.lua
+
+add dashboard scaling option (ticket #42)
+
+------------------------------------------------------------------------
+r407 | oscarucb | 2010-10-24 19:44:06 +0000 (Sun, 24 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+fix warlock soulstone detection
+
+------------------------------------------------------------------------
+r405 | danielbarron | 2010-10-24 10:20:13 +0000 (Sun, 24 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Core.lua
+
+RaidBuffStatus:
+- Added right-click buffing for Paladin blessings.
+------------------------------------------------------------------------
+r403 | danielbarron | 2010-10-23 14:52:09 +0000 (Sat, 23 Oct 2010) | 4 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Config.lua
+   M /trunk/Core.lua
+
+RaidBuffStatus:
+- Removed redundant reagent and other code.
+- Added Paladin blessing checking in again.
+
+------------------------------------------------------------------------
+r402 | danielbarron | 2010-10-20 20:00:39 +0000 (Wed, 20 Oct 2010) | 4 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+RaidBuffStatus:
+- Added Blood Pact in the check for Fortitude as currently it cancels the latter.
+- Added Blessing of Kings in the Mark of the Wild check as they are the same.
+- Started adding Paladin blessings back in but ran out of time.
+------------------------------------------------------------------------
+r401 | oscarucb | 2010-10-18 21:53:36 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Core.lua
+
+fix announces for soulwells and ritual of refreshment
+
+------------------------------------------------------------------------
+r400 | oscarucb | 2010-10-18 18:29:13 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+fix healthstone detection
+
+------------------------------------------------------------------------
+r399 | oscarucb | 2010-10-18 10:11:26 +0000 (Mon, 18 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+add a conservative hack to prevent false positives due to broken talent detection
+
+------------------------------------------------------------------------
+r398 | danielbarron | 2010-10-17 22:04:27 +0000 (Sun, 17 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+RaidBuffStatus:
+- Removed Thorns check as the buff is now only 20s.
+------------------------------------------------------------------------
+r397 | oscarucb | 2010-10-17 21:41:52 +0000 (Sun, 17 Oct 2010) | 5 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Core.lua
+
+fix IsMounted so pet detection ignores mounted units
+warlock updates:
+check Soul Link on all warlocks
+fix summoning priority
+
+------------------------------------------------------------------------
+r396 | danielbarron | 2010-10-17 21:23:35 +0000 (Sun, 17 Oct 2010) | 6 lines
+Changed paths:
+   M /trunk/Buffs.lua
+   M /trunk/Config.lua
+   M /trunk/Core.lua
+   M /trunk/ReadMe.txt
+
+RaidBuffStatus:
+- Removed more things no longer needed such as Sanctuary, PallyPower support, Warlock shards and Warlock weapon buffs.
+- Scrolls are now incorporated in the slacking elixirs.
+- Fixed error on Buff Options window.
+- Temporarily removed support for Paladin blessings.  This will be added back soon.
+- Fixed a little bit of the talent window.
+------------------------------------------------------------------------
+r395 | oscarucb | 2010-10-14 21:41:08 +0000 (Thu, 14 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Buffs.lua
+
+fix mage armor
+
+------------------------------------------------------------------------

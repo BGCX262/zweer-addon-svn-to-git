@@ -1,0 +1,10 @@
+
+FishermansFriendDB = {
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

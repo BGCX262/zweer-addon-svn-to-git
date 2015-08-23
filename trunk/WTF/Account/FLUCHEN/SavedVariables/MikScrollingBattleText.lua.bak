@@ -1,0 +1,16 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["normalFontName"] = "MSBT Adventure",
+			["critFontName"] = "MSBT Adventure",
+			["creationVersion"] = "5.4.78",
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

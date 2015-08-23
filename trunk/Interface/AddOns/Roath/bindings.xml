@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="ROATHBDINGIND1" header="ROATHEADER">
+		ToggleKnowledgeBaseFrame();
+	</Binding>
+</Bindings>

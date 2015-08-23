@@ -1,0 +1,176 @@
+
+QuestGuru_Quests = {
+	["Crushridge"] = {
+		["10959"] = {
+			["_link"] = "|cff808080|Hquest:10959:70|h[The Fall of the Betrayer]|h|r",
+			["level"] = 70,
+			["header"] = "The Black Temple",
+		},
+		["9033"] = {
+			["StartInfo"] = "Commander Eligor Dawnbringer;Light's Hope Chapel, Eastern Plaguelands;75.81;52.32",
+			["header"] = "Naxxramas",
+			["_link"] = "|cff808080|Hquest:9033:60|h[Echoes of War]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9131"] = {
+			["StartInfo"] = "Korfax, Champion of the Light;Light's Hope Chapel, Eastern Plaguelands;75.98;52.21",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9131:60|h[Binding the Dreadnaught]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["187"] = {
+			["_link"] = "|cff808080|Hquest:187:35|h[Tiger Mastery]|h|r",
+			["level"] = 35,
+			["header"] = "Stranglethorn Vale",
+		},
+		["9664"] = {
+			["StartInfo"] = "Emissary Whitebeard;Light's Hope Chapel, Eastern Plaguelands;75.52;53.36",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9664:60|h[Establishing New Outposts]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["5213"] = {
+			["StartInfo"] = "Betina Bigglezink;Light's Hope Chapel, Eastern Plaguelands;75.66;53.7",
+			["header"] = "Stratholme",
+			["_link"] = "|cff808080|Hquest:5213:60|h[The Active Agent]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["5243"] = {
+			["StartInfo"] = "Leonid Barthalomew the Revered;Light's Hope Chapel, Eastern Plaguelands;75.93;52.05",
+			["header"] = "Stratholme",
+			["_link"] = "|cff808080|Hquest:5243:60|h[Houses of the Holy]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9141"] = {
+			["StartInfo"] = "Dispatch Commander Metz;Light's Hope Chapel, Eastern Plaguelands;75.22;51.8",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9141:60|h[They Call Me \"The Rooster\"]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Complete",
+		},
+		["9224"] = {
+			["StartInfo"] = "Quartermaster Miranda Breechlock;Light's Hope Chapel, Eastern Plaguelands;75.76;54.15",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9224:60|h[Epic Armaments of Battle - Honored Amongst the Dawn]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9211"] = {
+			["StartInfo"] = "Mataus the Wrathcaster;Light's Hope Chapel, Eastern Plaguelands;75.65;52.39",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9211:60|h[The Ice Guard]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["6026"] = {
+			["StartInfo"] = "Smokey LaRue;Light's Hope Chapel, Eastern Plaguelands;74.88;52.14",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:6026:58|h[That's Asking A Lot]|h|r",
+			["level"] = 58,
+			["~Zweer"] = "Abandoned",
+		},
+		["9181"] = {
+			["StartInfo"] = "Craftsman's Writ - Volcanic Hammer;Light's Hope Chapel, Eastern Plaguelands;75.19;51.78",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9181:60|h[Craftsman's Writ - Volcanic Hammer]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9124"] = {
+			["StartInfo"] = "Huntsman Leopold;Light's Hope Chapel, Eastern Plaguelands;75.71;52.6",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9124:60|h[Cryptstalker Armor Doesn't Make Itself...]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["5211"] = {
+			["StartInfo"] = "Carlin Redpath;Light's Hope Chapel, Eastern Plaguelands;75.72;53.98",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:5211:55|h[Defenders of Darrowshire]|h|r",
+			["level"] = 55,
+			["~Zweer"] = "Complete",
+		},
+		["9126"] = {
+			["StartInfo"] = "Rohan the Assassin;Light's Hope Chapel, Eastern Plaguelands;75.71;52.6",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9126:60|h[Bonescythe Digs]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Complete",
+		},
+		["9203"] = {
+			["StartInfo"] = "Craftsman's Writ - Potion of Petrification;Light's Hope Chapel, Eastern Plaguelands;75.19;51.78",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9203:60|h[Craftsman's Writ - Potion of Petrification]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9128"] = {
+			["StartInfo"] = "Archmage Angela Dosantos;Light's Hope Chapel, Eastern Plaguelands;75.73;52.43",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9128:60|h[The Elemental Equation]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9213"] = {
+			["StartInfo"] = "Mataus the Wrathcaster;Light's Hope Chapel, Eastern Plaguelands;75.65;52.39",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9213:60|h[The Shadow Guard]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9223"] = {
+			["StartInfo"] = "Quartermaster Miranda Breechlock;Light's Hope Chapel, Eastern Plaguelands;75.76;54.15",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9223:60|h[Superior Armaments of Battle - Honored Amongst the Dawn]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["5214"] = {
+			["StartInfo"] = "Smokey LaRue;Light's Hope Chapel, Eastern Plaguelands;74.88;52.14",
+			["header"] = "Stratholme",
+			["_link"] = "|cff808080|Hquest:5214:60|h[The Great Fras Siabi]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["9184"] = {
+			["StartInfo"] = "Craftsman's Writ - Wicked Leather Headband;Light's Hope Chapel, Eastern Plaguelands;75.19;51.78",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9184:60|h[Craftsman's Writ - Wicked Leather Headband]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+		["5529"] = {
+			["StartInfo"] = "Betina Bigglezink;Light's Hope Chapel, Eastern Plaguelands;75.66;53.7",
+			["header"] = "Scholomance",
+			["_link"] = "|cff808080|Hquest:5529:58|h[Plagued Hatchlings]|h|r",
+			["level"] = 58,
+			["~Zweer"] = "Abandoned",
+		},
+		["9136"] = {
+			["StartInfo"] = "Rayne;Light's Hope Chapel, Eastern Plaguelands;75.45;53.1",
+			["header"] = "Eastern Plaguelands",
+			["_link"] = "|cff808080|Hquest:9136:60|h[Savage Flora]|h|r",
+			["level"] = 60,
+			["~Zweer"] = "Abandoned",
+		},
+	},
+}
+QuestGuru_Items = {
+	["Crushridge"] = {
+		["Minion's Scourgestone"] = "|cffffffff|Hitem:12840:0:0:0:0:0:0:0:80:0|h[Minion's Scourgestone]|h|r",
+		["Argent Dawn Valor Token"] = "|cff1eff00|Hitem:12844:0:0:0:0:0:0:0:80:0|h[Argent Dawn Valor Token]|h|r",
+		["Bone Fragments"] = "|cffffffff|Hitem:22526:0:0:0:0:0:0:0:80:0|h[Bone Fragments]|h|r",
+		["Siabi's Premium Tobacco"] = "|cffffffff|Hitem:13172:0:0:0:0:0:0:0:80:0|h[Siabi's Premium Tobacco]|h|r",
+		["Core of Elements"] = "|cffffffff|Hitem:22527:0:0:0:0:0:0:0:80:0|h[Core of Elements]|h|r",
+	},
+}
+QuestGuru_MoreNPCNames = {
+}
+QuestGuru_MoreAreaNames = {
+	["The Noxious Glade"] = 1,
+}

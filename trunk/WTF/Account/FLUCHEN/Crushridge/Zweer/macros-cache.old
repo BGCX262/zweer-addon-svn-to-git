@@ -1,0 +1,73 @@
+MACRO 16777232 "My Binding Heal" INV_Misc_QuestionMark
+#showtooltip Binding Heal
+/cast [target=mouseover] [help] Binding Heal
+END
+MACRO 16777225 "My Devouring Pla" INV_Misc_QuestionMark
+#showtooltip Devouring Plague
+/cast Devouring Plague
+END
+MACRO 16777229 "My Flash Heal" INV_Misc_QuestionMark
+#showtooltip Flash Heal
+/cast [target=mouseover] [help] [target=player] Flash Heal
+END
+MACRO 16777234 "My Greater Heal" INV_Misc_QuestionMark
+#showtooltip Greater Heal
+/cast [target=mouseover] [help] [target=player] Greater Heal
+END
+MACRO 16777233 "My Mending" INV_Misc_QuestionMark
+#showtooltip Prayer of Mending
+/cast [target=mouseover] [help] [target=player] Prayer of mending
+END
+MACRO 16777224 "My Mind Blast" INV_Misc_QuestionMark
+#showtooltip Mind Blast
+/cast [nochanneling:Mind Flay] [nochanneling:Mind Sear] Mind Blast
+END
+MACRO 16777235 "My Mind Control" INV_Misc_QuestionMark
+#showtooltip Mind Control
+/cast [target=focus] [harm] Mind Control
+END
+MACRO 16777223 "My Mind Flay" INV_Misc_QuestionMark
+#showtooltip Mind Flay
+/cast [nochanneling:Mind Flay] [nochanneling:Mind Sear] Mind Flay
+END
+MACRO 16777218 "My PoH" INV_Misc_QuestionMark
+#showtooltip Prayer of healing
+/cast [target=mouseover] [help] [target=player] Prayer of Healing
+END
+MACRO 16777230 "My Renew" INV_Misc_QuestionMark
+#showtooltip Renew
+/cast [target=mouseover] [help] [target=player] Renew
+END
+MACRO 16777217 "My Shackle" INV_Misc_QuestionMark
+#showtooltip Shackle Undead
+/cast [target=focus] [harm] Shackle Undead
+END
+MACRO 16777226 "My Shadow Word P" INV_Misc_QuestionMark
+#showtooltip Shadow Word: Pain
+/cast Nevermelting Ice Crystal
+/cast Shadow Word: Pain
+END
+MACRO 16777228 "My Shadowfiend o" INV_Misc_QuestionMark
+#showtooltip Shadowfiend
+/cast Shadowfiend
+/cast [pet, nomodifier] Shadowcrawl
+END
+MACRO 16777231 "My Shield" INV_Misc_QuestionMark
+#showtooltip Power Word: Shield
+/cast [target=mouseover] [help] [target=player] Power Word: Shield
+END
+MACRO 16777220 "My Shield" Spell_Shadow_DemonicTactics
+#showtooltip Power Word: Shield
+/cast [help] Power Word: Shield; [target=player] Power Word: Shield
+/script local n if(UnitIsFriend("player","target")) then n=UnitName("target") else n=UnitName("player") end
+END
+MACRO 16777227 "My Vampiric Touc" INV_Misc_QuestionMark
+#showtooltip Vampiric Touch
+/cast [nochanneling:Mind Flay] [nochanneling:Mind Sear] Vampiric Touch
+END
+MACRO 16777237 "Stop cast" Ability_Creature_Cursed_04
+/stopcasting
+END
+MACRO 16777238 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+R2HR1HR1WM2DH2MR1DR1SH2PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

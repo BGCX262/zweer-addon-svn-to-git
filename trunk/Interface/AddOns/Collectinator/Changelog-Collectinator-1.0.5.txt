@@ -1,0 +1,20 @@
+tag 1.0.5
+849e95958ae52b7db272e710b81e3fee8a9a09a6
+James D. Callahan III <darkenelf@gmail.com>
+2010-10-15 00:08:11 -0400
+
+Tagging new release.
+
+
+--------------------
+
+Jim-Bim:
+	- - removed debug code
+	- - Updated TOC for Patch 4.0
+	- - Fixed needed ui frames / modes
+mike:
+	- Added skeleton code for more known new pets in Cataclysm
+	- Add a custom string for the two brewfest mounts.
+	- grr :)
+	- Added skeleton entries for new mounts for cataclysm
+	- Added skeleton entries for new pets for cataclysm

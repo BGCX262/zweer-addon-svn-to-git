@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+r9 | kryso | 2009-01-12 19:25:29 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   D /tags/3.0.3-r7
+   A /tags/release-r7 (from /tags/3.0.3-r7:8)
+
+release
+------------------------------------------------------------------------
+r8 | kryso | 2009-01-12 19:21:38 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   A /tags/3.0.3-r7 (from /trunk:7)
+
+release
+------------------------------------------------------------------------
+r7 | kryso | 2009-01-12 19:19:57 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/InstanceLog.lua
+
+removed logging arena & 5-mans
+------------------------------------------------------------------------
+r3 | kryso | 2009-01-12 18:12:33 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+.pkgmeta
+------------------------------------------------------------------------
+r2 | kryso | 2009-01-12 18:06:43 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/InstanceLog.lua
+   A /trunk/InstanceLog.toc
+
+fist commit
+------------------------------------------------------------------------
+r1 | root | 2009-01-12 17:58:54 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"instancelog/mainline: Initial Import"
+------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+## Interface: 40000
+## Title: Broker: EquipSwitch
+## Notes: LibDataBroker plugin to switch equipment using EquipmentManager
+## Author: LLoydBates
+## Version: 4.0.0
+## SavedVariablesPerCharacter: EQUIPSWITCH
+## X-Category: Inventory
+## X-WoWI-ID: 12649
+
+embeds.xml
+
+locales.xml
+
+EventHandler.lua
+Core.lua

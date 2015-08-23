@@ -1,0 +1,28 @@
+
+qcNPC = {
+}
+qcUnknownQuests = {
+}
+qcLoggerData = {
+	[28760] = {
+		["PR"] = "Human",
+		["PC"] = "PRIEST",
+		["C"] = {
+			["C"] = "The Vortex Pinnacle",
+			["T"] = "Vengeance for Orsis",
+			["V"] = 80,
+			["NPCN"] = "Itesh",
+			["Z"] = "The Vortex Pinnacle",
+			["PX"] = 54.52486276626587,
+			["NPCID"] = 49943,
+			["PY"] = 16.13234281539917,
+			["NPCGUID"] = "0xF130C31700003BCF",
+		},
+	},
+}
+qcParsedData = {
+}
+qcDynamicDB = {
+}
+qcStaticDB = {
+}

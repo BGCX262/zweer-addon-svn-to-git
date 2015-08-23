@@ -1,0 +1,110 @@
+SquidMod = CreateFrame("Frame", "SquidModFrame", UIParent)
+
+local self = SquidMod
+
+local textures = {
+	"hide",
+	"SquidModDefault",
+	"BlizzDefault1",
+	"BlizzDefault2",
+	"murloc",
+	"murloc2",
+	"skull",
+	"whelp",
+	"human",
+	"dwarf",
+	"gnome",
+	"nightelf",
+	"orc",
+	"troll",
+	"tauren",
+	"ghoul",
+	"SinfulCreature_guardian",
+	"emblem",
+}
+
+function SquidMod:Load()
+
+	self:LoadVariables()
+	self:RegisterEvent("VARIABLES_LOADED")
+
+	self:SetScript("OnEvent", function() self:Update() end)
+	self:SetScript("OnUpdate", function() self:Update() end)
+
+	SLASH_SQUID1 = "/squid"
+	SlashCmdList["SQUID"] = function(msg) self:SlashCommand(msg) end
+
+end
+
+function SquidMod:LoadVariables()
+	
+	if ( not SquidModSettings ) then
+
+		SquidModSettings = { }
+		SquidModSettings.toggle = 2
+		SquidModSettings.textures = textures
+
+	end
+
+end
+
+function SquidMod:SlashCommand(msg)
+
+	if (string.len(msg)>0) then
+
+		local command = string.lower(msg)
+		local help = true
+		if ( type(command) == "string" ) then
+			for i,v in ipairs(SquidModSettings.textures) do
+				if ( command == string.lower(v) ) then
+					SquidModSettings.toggle = i
+					DEFAULT_CHAT_FRAME:AddMessage("SquidMod: "..string.lower(v))
+					help = false
+				end
+			end
+		elseif ( type(command) == "number" ) then
+			if SquidModSettings.textures[command] ~= nil then
+				SquidModSettings.toggle = command
+				DEFAULT_CHAT_FRAME:AddMessage("SquidMod: "..string.lower(SquidModSettings.textures[command]))
+				help = false
+			end
+		end
+
+		if ( help == true ) then
+			for i,v in ipairs(SquidModSettings.textures) do
+				DEFAULT_CHAT_FRAME:AddMessage("SquidMod: /squid "..v)
+			end
+		end
+
+	else
+		for i,v in ipairs(SquidModSettings.textures) do
+			DEFAULT_CHAT_FRAME:AddMessage("SquidMod: /squid "..v)
+		end
+	end
+
+end
+		
+
+function SquidMod:Update()
+
+	local toggle = SquidModSettings.toggle
+	local textures = SquidModSettings.textures
+
+	if ( SquidModSettings ) then
+		if ( toggle == 1 ) then
+			MainMenuBarLeftEndCap:Hide()
+			MainMenuBarRightEndCap:Hide()
+		elseif ( toggle == 18 ) then
+			MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\SquidMod\\skin\\emblemLeft.tga")
+			MainMenuBarRightEndCap:SetTexture("Interface\\AddOns\\SquidMod\\skin\\emblemRight.tga")
+		else
+			MainMenuBarLeftEndCap:SetTexture("Interface\\AddOns\\SquidMod\\skin\\"..textures[toggle]..".tga")
+		end
+	else
+		self:LoadVariables()
+	end
+
+end
+
+SquidMod:Load()
+

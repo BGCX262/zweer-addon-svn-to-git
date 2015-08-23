@@ -1,0 +1,146 @@
+------------------------------------------------------------------------
+r53 | tiker | 2010-10-31 13:36:44 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   A /tags/4.0.25 (from /trunk:52)
+
+Tagging as 4.0.25
+------------------------------------------------------------------------
+r52 | tiker | 2010-10-31 13:36:23 +0000 (Sun, 31 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/GoGoMount.lua
+   M /trunk/GoGoMount.toc
+
+- fixed error on line 750 for hunters
+
+------------------------------------------------------------------------
+r50 | tiker | 2010-10-31 04:32:32 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/GoGoMount.toc
+
+- more svn stuff
+------------------------------------------------------------------------
+r48 | tiker | 2010-10-31 04:30:32 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/GoGoMount.toc
+
+fixing svn stuff
+------------------------------------------------------------------------
+r45 | tiker | 2010-10-31 04:27:21 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   D /trunk/trunk
+
+not needed
+------------------------------------------------------------------------
+r43 | tiker | 2010-10-31 04:24:06 +0000 (Sun, 31 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/GoGoMount.toc
+
+- updated version in toc
+- hopefully svn will package properly this time
+------------------------------------------------------------------------
+r42 | tiker | 2010-10-31 04:20:29 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   A /trunk/GoGoMount.lua
+   A /trunk/GoGoMount.toc
+   A /trunk/GoGoMount.xml
+   A /trunk/GoGoMountData.lua
+   A /trunk/bindings.xml
+   A /trunk/localization-deDE.lua
+   A /trunk/localization-enUS.lua
+   A /trunk/localization-esES.lua
+   A /trunk/localization-esMX.lua
+   A /trunk/localization-frFR.lua
+   A /trunk/localization-koKR.lua
+   A /trunk/localization-ruRU.lua
+   A /trunk/localization-zhCN.lua
+   A /trunk/localization-zhTW.lua
+   A /trunk/localization.lua
+
+fixing file locations
+------------------------------------------------------------------------
+r40 | tiker | 2010-10-31 03:58:47 +0000 (Sun, 31 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+   M /trunk/trunk/GoGoMount.toc
+
+- updated toc to reflect new version
+- settings are now set instantly as soon as a check box is clicked and not lost if page is changed before clicking ok
+------------------------------------------------------------------------
+r39 | tiker | 2010-10-31 03:09:11 +0000 (Sun, 31 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+
+- druids can no longer select "always use flight form" and "never use flight form in randomization" options at the same time any more
+- clicking "defaults" to reset the main options no longer resets druid options and hunter options as well
+------------------------------------------------------------------------
+r38 | tiker | 2010-10-31 00:28:53 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+
+Fixed bug with druids excluding flight forms from mount random selections
+------------------------------------------------------------------------
+r37 | tiker | 2010-10-29 23:20:38 +0000 (Fri, 29 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+   M /trunk/trunk/GoGoMountData.lua
+   M /trunk/trunk/localization-enUS.lua
+
+Druids have a new option to exclude flight forms from mount randoms (but still included if moving or if falling) -- untested
+------------------------------------------------------------------------
+r36 | tiker | 2010-10-29 22:18:48 +0000 (Fri, 29 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+   M /trunk/trunk/GoGoMountData.lua
+   M /trunk/trunk/localization-enUS.lua
+   M /trunk/trunk/localization.lua
+
+Hunter class options frame created
+Hunter option to use Aspect of Pack over Aspect of Cheeta added and enabled.
+------------------------------------------------------------------------
+r35 | tiker | 2010-10-29 18:49:18 +0000 (Fri, 29 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+   M /trunk/trunk/localization-enUS.lua
+
+Class specific options fixed
+------------------------------------------------------------------------
+r34 | tiker | 2010-10-29 14:56:15 +0000 (Fri, 29 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/trunk/GoGoMount.lua
+
+Druids should get their own sub-option window now.  Hides class specific options from other classes.
+------------------------------------------------------------------------
+r33 | tiker | 2010-10-29 14:42:58 +0000 (Fri, 29 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/trunk/GoGoMount.xml
+   M /trunk/trunk/localization-zhTW.lua
+
+Updated zhTW translations
+Cleaned up some XML stuff for GUI which probably won't get done
+------------------------------------------------------------------------
+r32 | tiker | 2010-10-29 14:13:45 +0000 (Fri, 29 Oct 2010) | 1 line
+Changed paths:
+   A /trunk/trunk/GoGoMount.lua
+   A /trunk/trunk/GoGoMount.toc
+   A /trunk/trunk/GoGoMount.xml
+   A /trunk/trunk/GoGoMountData.lua
+   A /trunk/trunk/bindings.xml
+   A /trunk/trunk/localization-deDE.lua
+   A /trunk/trunk/localization-enUS.lua
+   A /trunk/trunk/localization-esES.lua
+   A /trunk/trunk/localization-esMX.lua
+   A /trunk/trunk/localization-frFR.lua
+   A /trunk/trunk/localization-koKR.lua
+   A /trunk/trunk/localization-ruRU.lua
+   A /trunk/trunk/localization-zhCN.lua
+   A /trunk/trunk/localization-zhTW.lua
+   A /trunk/trunk/localization.lua
+
+4.0.21
+------------------------------------------------------------------------
+r31 | tiker | 2009-01-19 18:48:40 +0000 (Mon, 19 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/trunk
+
+testing svn stuff again
+------------------------------------------------------------------------

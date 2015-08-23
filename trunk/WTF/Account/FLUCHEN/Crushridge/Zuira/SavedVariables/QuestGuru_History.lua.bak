@@ -1,0 +1,12 @@
+
+QGH_History = {
+	{
+		["Title"] = "They Call Me \"The Rooster\"",
+		["Link"] = "|cff808080|Hquest:9141:60|h[They Call Me \"The Rooster\"]|h|r",
+		["Level"] = 60,
+		["SuggestedGroup"] = 0,
+		["Header"] = "Eastern Plaguelands",
+	}, -- [1]
+}
+QGH_FullHistory = {
+}

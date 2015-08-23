@@ -1,0 +1,12 @@
+
+TipTac_Config = {
+	["anchorWorldTipType"] = "mouse",
+	["anchorWorldUnitType"] = "mouse",
+	["showBuffs"] = false,
+	["left"] = 1696.178123772804,
+	["top"] = 341.7066105969536,
+	["anchorWorldUnitPoint"] = "BOTTOM",
+	["hideAllTipsInCombat"] = true,
+	["showDebuffs"] = false,
+	["targetYouText"] = "<<YOU>>",
+}

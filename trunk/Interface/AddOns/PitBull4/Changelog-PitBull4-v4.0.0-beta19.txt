@@ -1,0 +1,12 @@
+tag v4.0.0-beta19
+537d3e57799c7589a8e5a98479c5e5b19f2c0bcb
+Shefki <shefki@shefki.org>
+2010-11-17 20:55:39 -0800
+
+Tagging as v4.0.0-beta19
+
+
+--------------------
+
+Shefki:
+	- Remove some changes I didn't mean to commit.

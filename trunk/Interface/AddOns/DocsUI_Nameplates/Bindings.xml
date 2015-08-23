@@ -1,0 +1,92 @@
+<Bindings>
+    <Binding name="NAMEPLATES_OVERRIDE">
+        local SHOW_ENEMIES = GetCVarBool("nameplateShowEnemies")
+        local SHOW_FRIENDS = GetCVarBool("nameplateShowFriends")
+        
+        if SHOW_ENEMIES then
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = false
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = false
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = false
+            end
+        else
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = false
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = false
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = false
+            end
+        end
+        
+        DocsUI_Nameplates.setVisibility()
+    </Binding>
+    <Binding name="FRIENDNAMEPLATES_OVERRIDE">
+        local SHOW_ENEMIES = GetCVarBool("nameplateShowEnemies")
+        local SHOW_FRIENDS = GetCVarBool("nameplateShowFriends")
+        
+        if SHOW_FRIENDS then
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = false
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = false
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = false
+            end
+        else
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = true
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = true
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = true
+            end
+        end
+        
+        DocsUI_Nameplates.setVisibility()
+    </Binding>
+    <Binding name="ALLNAMEPLATES_OVERRIDE">
+        local SHOW_ENEMIES = GetCVarBool("nameplateShowEnemies")
+        local SHOW_FRIENDS = GetCVarBool("nameplateShowFriends")
+        
+        if SHOW_FRIENDS and SHOW_ENEMIES then
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = false
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = false
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = false
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = false
+            end
+        else
+            if DocsUI_Nameplates.isInPve and UnitAffectingCombat( "player" ) then
+                DocsUI_Nameplates.db.profile.visibilityPvecombatEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPvecombatFriendUnit = true
+            elseif DocsUI_Nameplates.isInPve then
+                DocsUI_Nameplates.db.profile.visibilityPveEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPveFriendUnit = true
+            elseif DocsUI_Nameplates.isInPvp then
+                DocsUI_Nameplates.db.profile.visibilityPvpEnemyUnit = true
+                DocsUI_Nameplates.db.profile.visibilityPvpFriendUnit = true
+            end
+        end
+        
+        DocsUI_Nameplates.setVisibility()
+    </Binding>
+</Bindings>

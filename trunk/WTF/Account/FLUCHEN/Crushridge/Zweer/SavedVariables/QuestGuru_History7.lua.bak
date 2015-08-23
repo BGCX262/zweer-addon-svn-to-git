@@ -1,0 +1,47 @@
+
+QuestGuru_History7 = {
+	["9141"] = {
+		["Talents"] = 0,
+		["FinishPosX"] = 75.19,
+		["Objectives"] = 1,
+		["RewardMoney"] = 2880,
+		["SpellRewards"] = 0,
+		["StartTime"] = "10/16/2010 09:40:41",
+		["LastCompleted"] = 1287214848,
+		["Reward"] = {
+			{
+				["Count"] = 1,
+				["Link"] = "|cffffffff|Hitem:22568:0:0:0:0:0:0:0:80:0|h[Sealed Craftsman's Writ]|h|r",
+			}, -- [1]
+		},
+		["StartPosY"] = 51.8,
+		["StartLevel"] = 80,
+		["FinishNPCZone"] = "Light's Hope Chapel, Eastern Plaguelands",
+		["Choices"] = 0,
+		["Level"] = 60,
+		["Objective"] = {
+			{
+				["Type"] = "item",
+				["Description"] = "|cff1eff00|Hitem:12844:0:0:0:0:0:0:0:80:0|h[Argent Dawn Valor Token]|h|r",
+				["numNeeded"] = "1",
+			}, -- [1]
+		},
+		["FinishNPCName"] = "Dispatch Commander Metz",
+		["Choice"] = {
+		},
+		["Description"] = "You want a writ? What? Do you expect me to hand you a highly sought after work order just for showing up? I think not, scrub. Crafters from around the world bid for jobs here at the front lines.\n\nIf you want a work order, you'll have to show me that you're willing to bleed for the cause. Bring me a valor token and we'll talk.\n\nAnd there's only one way to get your grubby little scrub mitts on those - get to killin'.",
+		["Link"] = "|cff808080|Hquest:9141:60|h[They Call Me \"The Rooster\"]|h|r",
+		["FinishPosY"] = 51.78,
+		["Rewards"] = 1,
+		["SuggestedGroup"] = 0,
+		["StartNPCName"] = "Dispatch Commander Metz",
+		["RequiredMoney"] = 0,
+		["FinishTime"] = "10/16/2010 09:40:48",
+		["Header"] = "Eastern Plaguelands",
+		["StartPosX"] = 75.22,
+		["StartNPCZone"] = "Light's Hope Chapel, Eastern Plaguelands",
+		["FinishLevel"] = 80,
+		["Title"] = "They Call Me \"The Rooster\"",
+		["ObjectiveText"] = "Dispatch Commander Metz at Light's Hope Chapel in the Eastern Plaguelands wants an Argent Dawn Valor Token.\r\n",
+	},
+}

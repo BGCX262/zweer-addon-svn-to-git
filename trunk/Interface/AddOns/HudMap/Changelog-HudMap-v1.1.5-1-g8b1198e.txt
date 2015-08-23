@@ -1,0 +1,2 @@
+thelibrarian:
+	- Correct GUID to MobID translation for 4.0.1

@@ -1,0 +1,176 @@
+
+DXEDB = {
+	["namespaces"] = {
+		["Alerts"] = {
+			["profiles"] = {
+				["zwe"] = {
+					["TopScale"] = 0.7,
+					["CenterBarWidth"] = 220,
+					["TopAlpha"] = 0.8,
+					["TopTextWidth"] = 145,
+					["CenterScale"] = 1,
+					["BarFontSize"] = 14,
+					["BarHeight"] = 20,
+					["TopBarWidth"] = 220,
+					["TopGrowth"] = "UP",
+				},
+				["Zweer - Crushridge"] = {
+					["TopScale"] = 0.7,
+					["CenterBarWidth"] = 220,
+					["TopAlpha"] = 0.8,
+					["TopTextWidth"] = 145,
+					["CenterScale"] = 1,
+					["BarFontSize"] = 14,
+					["BarHeight"] = 20,
+					["TopBarWidth"] = 220,
+					["TopGrowth"] = "UP",
+				},
+			},
+		},
+		["RaidIcons"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Distributor"] = {
+		},
+		["RDB"] = {
+		},
+		["Arrows"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "zwe",
+	},
+	["profiles"] = {
+		["zwe"] = {
+			["Proximity"] = {
+				["Rows"] = 6,
+				["Range"] = 12,
+				["NameFontSize"] = 10,
+			},
+			["Dimensions"] = {
+				["DXEWindowProximity"] = {
+					["height"] = 98.97696100196731,
+					["width"] = 108.8746625003312,
+				},
+			},
+			["Scales"] = {
+				["DXEWindowProximityFrame"] = 0.9897696375846863,
+			},
+			["Windows"] = {
+				["TitleBarColor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					0.8196078431372549, -- [3]
+					0, -- [4]
+				},
+			},
+			["Positions"] = {
+				["DXEPane"] = {
+					["point"] = "BOTTOMLEFT",
+					["relativePoint"] = "BOTTOMLEFT",
+					["yOfs"] = 182.0127564032771,
+					["xOfs"] = 626.2458388600702,
+				},
+				["DXEAlertsTopStackAnchor"] = {
+					["point"] = "BOTTOMRIGHT",
+					["relativePoint"] = "BOTTOMRIGHT",
+					["yOfs"] = 101.1566779369808,
+					["xOfs"] = -390.6259173457662,
+				},
+				["DXEArrowsAnchor1"] = {
+					["yOfs"] = -190.1491978906943,
+					["xOfs"] = -0.0004650728898530166,
+				},
+				["DXEArrowsAnchor3"] = {
+					["yOfs"] = -190.7424924532849,
+					["xOfs"] = 84.39571967514561,
+				},
+				["DXEArrowsAnchor2"] = {
+					["yOfs"] = -189.8833201624146,
+					["xOfs"] = -84.395647699583,
+				},
+				["DXEWindowProximity"] = {
+					["point"] = "LEFT",
+					["relativePoint"] = "LEFT",
+					["yOfs"] = -153.6512537981343,
+					["xOfs"] = 6.751646282845265,
+				},
+				["DXEAlertsCenterStackAnchor"] = {
+					["yOfs"] = -38.408908775262,
+					["xOfs"] = -389.3448962824411,
+				},
+			},
+			["Pane"] = {
+				["Scale"] = 0.7000000000000001,
+				["Width"] = 225,
+				["OnlyInRaidInstance"] = true,
+			},
+		},
+		["Zweer - Crushridge"] = {
+			["Proximity"] = {
+				["Rows"] = 6,
+				["Range"] = 12,
+				["NameFontSize"] = 10,
+			},
+			["Dimensions"] = {
+				["DXEWindowProximity"] = {
+					["height"] = 98.97696100196731,
+					["width"] = 108.8746625003312,
+				},
+			},
+			["Scales"] = {
+				["DXEWindowProximityFrame"] = 0.9897696375846863,
+			},
+			["Windows"] = {
+				["TitleBarColor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					0.8196078431372549, -- [3]
+					0, -- [4]
+				},
+			},
+			["Positions"] = {
+				["DXEPane"] = {
+					["point"] = "BOTTOMLEFT",
+					["relativePoint"] = "BOTTOMLEFT",
+					["yOfs"] = 182.0127564032771,
+					["xOfs"] = 626.2458388600702,
+				},
+				["DXEAlertsTopStackAnchor"] = {
+					["point"] = "BOTTOMRIGHT",
+					["relativePoint"] = "BOTTOMRIGHT",
+					["yOfs"] = 101.1566779369808,
+					["xOfs"] = -390.6259173457662,
+				},
+				["DXEArrowsAnchor1"] = {
+					["yOfs"] = -190.1491978906943,
+					["xOfs"] = -0.0004650728898530166,
+				},
+				["DXEArrowsAnchor3"] = {
+					["yOfs"] = -190.7424924532849,
+					["xOfs"] = 84.39571967514561,
+				},
+				["DXEArrowsAnchor2"] = {
+					["yOfs"] = -189.8833201624146,
+					["xOfs"] = -84.395647699583,
+				},
+				["DXEWindowProximity"] = {
+					["point"] = "LEFT",
+					["relativePoint"] = "LEFT",
+					["yOfs"] = -153.6512537981343,
+					["xOfs"] = 6.751646282845265,
+				},
+				["DXEAlertsCenterStackAnchor"] = {
+					["yOfs"] = -38.408908775262,
+					["xOfs"] = -389.3448962824411,
+				},
+			},
+			["Pane"] = {
+				["Scale"] = 0.7000000000000001,
+				["Width"] = 225,
+				["OnlyInRaidInstance"] = true,
+			},
+		},
+	},
+}

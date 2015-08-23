@@ -1,0 +1,31 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["realID"] = {
+				["|Kg7|k00000000|k||Ks7|k0000000|k"] = {
+					"Vergat|Crushridge|Alliance|80|PALADIN", -- [1]
+				},
+				["|Kg19|k000000000|k||Ks19|k0000000|k"] = {
+					"Ex|Crushridge|Alliance|80|PALADIN", -- [1]
+				},
+				["|Kg8|k000000|k||Ks8|k000000000|k"] = {
+					"Zodros|Crushridge|Alliance|47|PALADIN", -- [1]
+				},
+				["|Kg14|k0000000000|k||Ks14|k00000|k"] = {
+					"Kintarooe|Crushridge|Alliance|80|WARLOCK", -- [1]
+				},
+				["|Kg9|k00000000|k||Ks9|k00000000|k"] = {
+					"Reon|Crushridge|Alliance|80|DRUID", -- [1]
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+		},
+	},
+}

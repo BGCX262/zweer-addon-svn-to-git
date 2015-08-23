@@ -1,0 +1,19 @@
+
+TalentedDB = {
+	["global"] = {
+		["cata"] = true,
+		["templates"] = {
+			["Disco 80"] = "ADoaCcdA3a2a2m",
+			["Holy 80"] = "A0mZDn2CccBaCb0A",
+			["Shadow 80"] = "A3ZZo0oBC1CBADa",
+		},
+	},
+	["profileKeys"] = {
+		["Zweer - Crushridge"] = "Zweer - Crushridge",
+	},
+	["profiles"] = {
+		["Zweer - Crushridge"] = {
+			["last_template"] = "Holy 80",
+		},
+	},
+}

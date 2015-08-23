@@ -1,0 +1,17 @@
+tag v40000-1.0.1
+be2accd1762a8205ad6e1e3358256cc869c38712
+James Whitehead II <jnwhiteh@gmail.com>
+2010-11-04 16:11:40 +0000
+
+Tagging v40000-1.0.1
+
+
+--------------------
+
+James Whitehead II:
+	- Added a .staticIcon for LDB displays that don't use the dynamic icon
+	- Make checked out version sane
+	- Added koKR localization.
+	- Fix a bug with updating the coord feed throttle
+	- Update .pkgmeta file
+	- Updated .TOC

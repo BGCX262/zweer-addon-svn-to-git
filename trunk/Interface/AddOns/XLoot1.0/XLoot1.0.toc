@@ -1,0 +1,11 @@
+## Interface: 40000
+## Title: XLoot
+## Notes: A elegant and skinnable loot frame
+## Version: 1.0.7
+## Author: Xuerian
+## X-Category: Inventory
+
+## OptionalDeps: ButtonFacade
+## SavedVariables: XLoot_Options
+
+XLoot.lua
